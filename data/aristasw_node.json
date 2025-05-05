@@ -1,0 +1,17 @@
+{
+    "console": "telnet",
+    "delay": 0,
+    "left": "580",
+    "icon": "Switch-2D-L2-Arista-S.svg",
+    "image": "veos-4.33.2F",
+    "name": "vEOS",
+    "ram": 4096,
+    "status": 0,
+    "template": "veos",
+    "type": "qemu",
+    "top": "125",
+    "config": 0,
+    "cpu": 1,
+    "ethernet": 9,
+    "uuid": ""
+}

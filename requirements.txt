@@ -1,0 +1,18 @@
+# This is a requirements file for a Python project that automates tasks in EVE-NG.
+# It includes libraries for SSH connections, HTTP requests, data manipulation, and more.
+# HTTP requests library
+requests==2.25.1
+
+# Data manipulation and analysis
+pandas==1.3.0
+
+# Terminal progress bar
+tqdm==4.62.0
+
+# ASCII art generation
+pyfiglet==0.8.post1
+
+# Excel file handling
+openpyxl==3.0.7
+
+# JSON handling (built-in, no external library required)

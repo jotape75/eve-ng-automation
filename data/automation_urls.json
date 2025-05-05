@@ -1,0 +1,24 @@
+{
+    "eve_authorization_header": "Basic YWRtaW46ZXZl",
+    "api_urls": {
+        "eve_ng_url_login": "http://192.168.0.119/api/auth/login",
+        "eve_node_creation_url": "http://192.168.0.119/api/labs/Ansiblelab.unl/nodes",
+        "eve_start_node_url": "http://192.168.0.119/api/labs/Ansiblelab.unl/nodes/{device_id}/start",
+        "eve_interface_connection_url": "http://192.168.0.119/api/labs/Ansiblelab.unl/nodes/{device_id}/interfaces",
+        "eve_node_port":"http://192.168.0.119/api/labs/Ansiblelab.unl/nodes/{device_id}",
+        "eve_node_interface_url":"http://192.168.0.119/api/labs/Ansiblelab.unl/nodes/{device_id}/interfaces",
+        "eve_network_mgmt_url":"http://192.168.0.119/api/labs/Ansiblelab.unl/networks/21"
+    },
+    "urls": {
+        "data_file": "/home/user/pystudies/myenv/pythonbasic/projects/eve-ng_automation/data/eve_creds.xlsx",
+        "router_node_url": "/home/user/pystudies/myenv/pythonbasic/projects/eve-ng_automation/data/router_node.json",
+        "router_config":"/home/user/pystudies/myenv/pythonbasic/projects/eve-ng_automation/data/vIOS.xlsx",
+        "switch_node_payload":"/home/user/pystudies/myenv/pythonbasic/projects/eve-ng_automation/data/cicosw_node.json",
+        "switch_config":"/home/user/pystudies/myenv/pythonbasic/projects/eve-ng_automation/data/Switch.xlsx",
+        "aristasw_node_payload":"/home/user/pystudies/myenv/pythonbasic/projects/eve-ng_automation/data/aristasw_node.json",
+        "aristasw_config":"/home/user/pystudies/myenv/pythonbasic/projects/eve-ng_automation/data/vEOS.xlsx",
+        "juniperfw_node_payload":"/home/user/pystudies/myenv/pythonbasic/projects/eve-ng_automation/data/juniperfw_node.json",
+        "juniperfw_config":"/home/user/pystudies/myenv/pythonbasic/projects/eve-ng_automation/data/vSRX-NG.xlsx"
+
+    }
+}

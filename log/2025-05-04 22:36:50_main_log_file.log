@@ -1,0 +1,1612 @@
+2025-05-04 22:36:50 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:36:50 - DEBUG - http://192.168.0.119:80 "POST /api/auth/login HTTP/1.1" 200 67
+2025-05-04 22:36:50 - INFO - logger to EVE-ng API - {eve_ng_url_login}
+2025-05-04 22:37:02 - INFO - Attempting to create node Cisco Router (Attempt 1/3).
+2025-05-04 22:37:02 - INFO - Attempting to create node Cisco Router (Attempt 1/3).
+2025-05-04 22:37:02 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:02 - INFO - Attempting to create node Cisco Router (Attempt 1/3).
+2025-05-04 22:37:02 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:02 - INFO - Attempting to create node Cisco Router (Attempt 1/3).
+2025-05-04 22:37:02 - INFO - Attempting to create node Cisco Switch (Attempt 1/3).
+2025-05-04 22:37:02 - INFO - Attempting to create node Cisco Switch (Attempt 1/3).
+2025-05-04 22:37:02 - INFO - Attempting to create node Cisco Switch (Attempt 1/3).
+2025-05-04 22:37:02 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:02 - INFO - Attempting to create node Arista Switch (Attempt 1/3).
+2025-05-04 22:37:02 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:02 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:02 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:02 - INFO - Attempting to create node Arista Switch (Attempt 1/3).
+2025-05-04 22:37:02 - INFO - Attempting to create node Juniper Firewall (Attempt 1/3).
+2025-05-04 22:37:02 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:02 - INFO - Attempting to create node Juniper Firewall (Attempt 1/3).
+2025-05-04 22:37:02 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:02 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:02 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:02 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:03 - DEBUG - http://192.168.0.119:80 "POST /api/labs/Ansiblelab.unl/nodes HTTP/1.1" 201 88
+2025-05-04 22:37:03 - DEBUG - Create Node API Response: {"code":201,"status":"success","message":"Lab has been saved (60023).","data":{"id":16}}
+2025-05-04 22:37:03 - INFO - Node Cisco Router with ID 16 created successfully.
+2025-05-04 22:37:03 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:03 - DEBUG - http://192.168.0.119:80 "POST /api/labs/Ansiblelab.unl/nodes HTTP/1.1" 201 88
+2025-05-04 22:37:03 - DEBUG - Create Node API Response: {"code":201,"status":"success","message":"Lab has been saved (60023).","data":{"id":17}}
+2025-05-04 22:37:03 - INFO - Node Cisco Router with ID 17 created successfully.
+2025-05-04 22:37:03 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:03 - DEBUG - http://192.168.0.119:80 "POST /api/labs/Ansiblelab.unl/nodes HTTP/1.1" 201 88
+2025-05-04 22:37:03 - DEBUG - Create Node API Response: {"code":201,"status":"success","message":"Lab has been saved (60023).","data":{"id":18}}
+2025-05-04 22:37:03 - INFO - Node Cisco Switch with ID 18 created successfully.
+2025-05-04 22:37:03 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:03 - DEBUG - http://192.168.0.119:80 "POST /api/labs/Ansiblelab.unl/nodes HTTP/1.1" 201 88
+2025-05-04 22:37:03 - DEBUG - Create Node API Response: {"code":201,"status":"success","message":"Lab has been saved (60023).","data":{"id":19}}
+2025-05-04 22:37:03 - INFO - Node Cisco Router with ID 19 created successfully.
+2025-05-04 22:37:03 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:03 - DEBUG - http://192.168.0.119:80 "POST /api/labs/Ansiblelab.unl/nodes HTTP/1.1" 201 88
+2025-05-04 22:37:03 - DEBUG - Create Node API Response: {"code":201,"status":"success","message":"Lab has been saved (60023).","data":{"id":20}}
+2025-05-04 22:37:03 - INFO - Node Cisco Router with ID 20 created successfully.
+2025-05-04 22:37:03 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:04 - DEBUG - http://192.168.0.119:80 "POST /api/labs/Ansiblelab.unl/nodes HTTP/1.1" 201 88
+2025-05-04 22:37:04 - DEBUG - Create Node API Response: {"code":201,"status":"success","message":"Lab has been saved (60023).","data":{"id":21}}
+2025-05-04 22:37:04 - INFO - Node Cisco Switch with ID 21 created successfully.
+2025-05-04 22:37:04 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:04 - DEBUG - http://192.168.0.119:80 "GET /api/labs/Ansiblelab.unl/nodes/16/interfaces HTTP/1.1" 200 276
+2025-05-04 22:37:04 - INFO - Node Cisco Router with ID 16 has interface Gi0/0.
+2025-05-04 22:37:04 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:04 - DEBUG - http://192.168.0.119:80 "POST /api/labs/Ansiblelab.unl/nodes HTTP/1.1" 201 88
+2025-05-04 22:37:04 - DEBUG - Create Node API Response: {"code":201,"status":"success","message":"Lab has been saved (60023).","data":{"id":22}}
+2025-05-04 22:37:04 - INFO - Node Arista Switch with ID 22 created successfully.
+2025-05-04 22:37:04 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:04 - DEBUG - http://192.168.0.119:80 "POST /api/labs/Ansiblelab.unl/nodes HTTP/1.1" 201 88
+2025-05-04 22:37:04 - DEBUG - Create Node API Response: {"code":201,"status":"success","message":"Lab has been saved (60023).","data":{"id":23}}
+2025-05-04 22:37:04 - INFO - Node Juniper Firewall with ID 23 created successfully.
+2025-05-04 22:37:04 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:04 - DEBUG - http://192.168.0.119:80 "POST /api/labs/Ansiblelab.unl/nodes HTTP/1.1" 201 88
+2025-05-04 22:37:04 - DEBUG - Create Node API Response: {"code":201,"status":"success","message":"Lab has been saved (60023).","data":{"id":24}}
+2025-05-04 22:37:04 - INFO - Node Juniper Firewall with ID 24 created successfully.
+2025-05-04 22:37:04 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:04 - DEBUG - http://192.168.0.119:80 "POST /api/labs/Ansiblelab.unl/nodes HTTP/1.1" 201 88
+2025-05-04 22:37:04 - DEBUG - Create Node API Response: {"code":201,"status":"success","message":"Lab has been saved (60023).","data":{"id":25}}
+2025-05-04 22:37:04 - INFO - Node Cisco Switch with ID 25 created successfully.
+2025-05-04 22:37:04 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:04 - DEBUG - http://192.168.0.119:80 "POST /api/labs/Ansiblelab.unl/nodes HTTP/1.1" 201 88
+2025-05-04 22:37:04 - DEBUG - Create Node API Response: {"code":201,"status":"success","message":"Lab has been saved (60023).","data":{"id":26}}
+2025-05-04 22:37:04 - INFO - Node Arista Switch with ID 26 created successfully.
+2025-05-04 22:37:04 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:05 - DEBUG - http://192.168.0.119:80 "GET /api/labs/Ansiblelab.unl/nodes/17/interfaces HTTP/1.1" 200 276
+2025-05-04 22:37:05 - INFO - Node Cisco Router with ID 17 has interface Gi0/0.
+2025-05-04 22:37:05 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:05 - DEBUG - http://192.168.0.119:80 "GET /api/labs/Ansiblelab.unl/nodes/18/interfaces HTTP/1.1" 200 408
+2025-05-04 22:37:05 - INFO - Node Cisco Switch with ID 18 has interface Gi0/0.
+2025-05-04 22:37:05 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:06 - DEBUG - http://192.168.0.119:80 "GET /api/labs/Ansiblelab.unl/nodes/21/interfaces HTTP/1.1" 200 408
+2025-05-04 22:37:06 - DEBUG - http://192.168.0.119:80 "GET /api/labs/Ansiblelab.unl/nodes/19/interfaces HTTP/1.1" 200 276
+2025-05-04 22:37:06 - INFO - Node Cisco Switch with ID 21 has interface Gi0/0.
+2025-05-04 22:37:06 - INFO - Node Cisco Router with ID 19 has interface Gi0/0.
+2025-05-04 22:37:06 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:06 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:06 - DEBUG - http://192.168.0.119:80 "GET /api/labs/Ansiblelab.unl/nodes/20/interfaces HTTP/1.1" 200 276
+2025-05-04 22:37:06 - DEBUG - http://192.168.0.119:80 "GET /api/labs/Ansiblelab.unl/networks/21 HTTP/1.1" 200 205
+2025-05-04 22:37:06 - INFO - Node Cisco Router with ID 20 has interface Gi0/0.
+2025-05-04 22:37:06 - INFO - Management network ID for Cisco Router with ID 16: Management_NET_21.
+2025-05-04 22:37:06 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:06 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:07 - DEBUG - http://192.168.0.119:80 "GET /api/labs/Ansiblelab.unl/nodes/24/interfaces HTTP/1.1" 200 286
+2025-05-04 22:37:07 - DEBUG - http://192.168.0.119:80 "GET /api/labs/Ansiblelab.unl/nodes/23/interfaces HTTP/1.1" 200 286
+2025-05-04 22:37:07 - INFO - Node Juniper Firewall with ID 24 has interface fxp0.
+2025-05-04 22:37:07 - INFO - Node Juniper Firewall with ID 23 has interface fxp0.
+2025-05-04 22:37:07 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:07 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:07 - DEBUG - http://192.168.0.119:80 "GET /api/labs/Ansiblelab.unl/nodes/22/interfaces HTTP/1.1" 200 424
+2025-05-04 22:37:07 - DEBUG - http://192.168.0.119:80 "GET /api/labs/Ansiblelab.unl/networks/21 HTTP/1.1" 200 205
+2025-05-04 22:37:07 - INFO - Node Arista Switch with ID 22 has interface Mgmt1.
+2025-05-04 22:37:07 - INFO - Management network ID for Cisco Router with ID 17: Management_NET_21.
+2025-05-04 22:37:07 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:07 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:07 - DEBUG - http://192.168.0.119:80 "GET /api/labs/Ansiblelab.unl/networks/21 HTTP/1.1" 200 205
+2025-05-04 22:37:07 - INFO - Management network ID for Cisco Router with ID 19: Management_NET_21.
+2025-05-04 22:37:07 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:07 - DEBUG - http://192.168.0.119:80 "GET /api/labs/Ansiblelab.unl/nodes/25/interfaces HTTP/1.1" 200 408
+2025-05-04 22:37:07 - DEBUG - http://192.168.0.119:80 "GET /api/labs/Ansiblelab.unl/nodes/26/interfaces HTTP/1.1" 200 424
+2025-05-04 22:37:07 - DEBUG - http://192.168.0.119:80 "GET /api/labs/Ansiblelab.unl/networks/21 HTTP/1.1" 200 205
+2025-05-04 22:37:07 - INFO - Management network ID for Cisco Switch with ID 18: Management_NET_21.
+2025-05-04 22:37:07 - INFO - Node Arista Switch with ID 26 has interface Mgmt1.
+2025-05-04 22:37:07 - INFO - Node Cisco Switch with ID 25 has interface Gi0/0.
+2025-05-04 22:37:07 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:07 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:07 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:08 - DEBUG - http://192.168.0.119:80 "GET /api/labs/Ansiblelab.unl/networks/21 HTTP/1.1" 200 205
+2025-05-04 22:37:08 - INFO - Management network ID for Cisco Switch with ID 21: Management_NET_21.
+2025-05-04 22:37:08 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:08 - DEBUG - http://192.168.0.119:80 "GET /api/labs/Ansiblelab.unl/networks/21 HTTP/1.1" 200 205
+2025-05-04 22:37:08 - INFO - Management network ID for Juniper Firewall with ID 24: Management_NET_21.
+2025-05-04 22:37:08 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:08 - DEBUG - http://192.168.0.119:80 "GET /api/labs/Ansiblelab.unl/networks/21 HTTP/1.1" 200 205
+2025-05-04 22:37:08 - DEBUG - http://192.168.0.119:80 "GET /api/labs/Ansiblelab.unl/networks/21 HTTP/1.1" 200 205
+2025-05-04 22:37:08 - DEBUG - http://192.168.0.119:80 "GET /api/labs/Ansiblelab.unl/networks/21 HTTP/1.1" 200 205
+2025-05-04 22:37:08 - INFO - Management network ID for Juniper Firewall with ID 23: Management_NET_21.
+2025-05-04 22:37:08 - DEBUG - http://192.168.0.119:80 "GET /api/labs/Ansiblelab.unl/networks/21 HTTP/1.1" 200 205
+2025-05-04 22:37:08 - INFO - Management network ID for Arista Switch with ID 22: Management_NET_21.
+2025-05-04 22:37:08 - INFO - Management network ID for Cisco Router with ID 20: Management_NET_21.
+2025-05-04 22:37:08 - INFO - Management network ID for Arista Switch with ID 26: Management_NET_21.
+2025-05-04 22:37:08 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:08 - DEBUG - http://192.168.0.119:80 "GET /api/labs/Ansiblelab.unl/networks/21 HTTP/1.1" 200 205
+2025-05-04 22:37:08 - INFO - Management network ID for Cisco Switch with ID 25: Management_NET_21.
+2025-05-04 22:37:08 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:08 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:08 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:08 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:08 - DEBUG - http://192.168.0.119:80 "PUT /api/labs/Ansiblelab.unl/nodes/16/interfaces HTTP/1.1" 201 71
+2025-05-04 22:37:08 - INFO - Connected Cisco Router with ID 16 to management network.
+2025-05-04 22:37:08 - INFO - Attempting to start node Cisco Router with ID 16.
+2025-05-04 22:37:08 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:08 - DEBUG - http://192.168.0.119:80 "PUT /api/labs/Ansiblelab.unl/nodes/22/interfaces HTTP/1.1" 201 71
+2025-05-04 22:37:08 - INFO - Connected Arista Switch with ID 22 to management network.
+2025-05-04 22:37:08 - INFO - Attempting to start node Arista Switch with ID 22.
+2025-05-04 22:37:08 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:08 - DEBUG - http://192.168.0.119:80 "PUT /api/labs/Ansiblelab.unl/nodes/18/interfaces HTTP/1.1" 201 71
+2025-05-04 22:37:08 - INFO - Connected Cisco Switch with ID 18 to management network.
+2025-05-04 22:37:08 - INFO - Attempting to start node Cisco Switch with ID 18.
+2025-05-04 22:37:08 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:08 - DEBUG - http://192.168.0.119:80 "PUT /api/labs/Ansiblelab.unl/nodes/25/interfaces HTTP/1.1" 201 71
+2025-05-04 22:37:08 - INFO - Connected Cisco Switch with ID 25 to management network.
+2025-05-04 22:37:08 - INFO - Attempting to start node Cisco Switch with ID 25.
+2025-05-04 22:37:08 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:08 - DEBUG - http://192.168.0.119:80 "PUT /api/labs/Ansiblelab.unl/nodes/19/interfaces HTTP/1.1" 201 71
+2025-05-04 22:37:08 - INFO - Connected Cisco Router with ID 19 to management network.
+2025-05-04 22:37:08 - INFO - Attempting to start node Cisco Router with ID 19.
+2025-05-04 22:37:08 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:08 - DEBUG - http://192.168.0.119:80 "PUT /api/labs/Ansiblelab.unl/nodes/21/interfaces HTTP/1.1" 201 71
+2025-05-04 22:37:08 - INFO - Connected Cisco Switch with ID 21 to management network.
+2025-05-04 22:37:08 - INFO - Attempting to start node Cisco Switch with ID 21.
+2025-05-04 22:37:08 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:09 - DEBUG - http://192.168.0.119:80 "PUT /api/labs/Ansiblelab.unl/nodes/24/interfaces HTTP/1.1" 201 71
+2025-05-04 22:37:09 - INFO - Connected Juniper Firewall with ID 24 to management network.
+2025-05-04 22:37:09 - INFO - Attempting to start node Juniper Firewall with ID 24.
+2025-05-04 22:37:09 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:09 - DEBUG - http://192.168.0.119:80 "PUT /api/labs/Ansiblelab.unl/nodes/20/interfaces HTTP/1.1" 201 71
+2025-05-04 22:37:09 - INFO - Connected Cisco Router with ID 20 to management network.
+2025-05-04 22:37:09 - INFO - Attempting to start node Cisco Router with ID 20.
+2025-05-04 22:37:09 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:09 - DEBUG - http://192.168.0.119:80 "PUT /api/labs/Ansiblelab.unl/nodes/26/interfaces HTTP/1.1" 201 71
+2025-05-04 22:37:09 - INFO - Connected Arista Switch with ID 26 to management network.
+2025-05-04 22:37:09 - INFO - Attempting to start node Arista Switch with ID 26.
+2025-05-04 22:37:09 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:09 - DEBUG - http://192.168.0.119:80 "GET /api/labs/Ansiblelab.unl/nodes/16/start HTTP/1.1" 200 65
+2025-05-04 22:37:09 - DEBUG - http://192.168.0.119:80 "PUT /api/labs/Ansiblelab.unl/nodes/17/interfaces HTTP/1.1" 201 71
+2025-05-04 22:37:09 - INFO - Connected Cisco Router with ID 17 to management network.
+2025-05-04 22:37:09 - INFO - Attempting to start node Cisco Router with ID 17.
+2025-05-04 22:37:09 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:09 - DEBUG - http://192.168.0.119:80 "PUT /api/labs/Ansiblelab.unl/nodes/23/interfaces HTTP/1.1" 201 71
+2025-05-04 22:37:09 - INFO - Connected Juniper Firewall with ID 23 to management network.
+2025-05-04 22:37:09 - INFO - Attempting to start node Juniper Firewall with ID 23.
+2025-05-04 22:37:09 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:10 - DEBUG - http://192.168.0.119:80 "GET /api/labs/Ansiblelab.unl/nodes/19/start HTTP/1.1" 200 65
+2025-05-04 22:37:10 - DEBUG - http://192.168.0.119:80 "GET /api/labs/Ansiblelab.unl/nodes/18/start HTTP/1.1" 200 65
+2025-05-04 22:37:10 - DEBUG - http://192.168.0.119:80 "GET /api/labs/Ansiblelab.unl/nodes/22/start HTTP/1.1" 200 65
+2025-05-04 22:37:10 - DEBUG - http://192.168.0.119:80 "GET /api/labs/Ansiblelab.unl/nodes/25/start HTTP/1.1" 200 65
+2025-05-04 22:37:10 - DEBUG - http://192.168.0.119:80 "GET /api/labs/Ansiblelab.unl/nodes/24/start HTTP/1.1" 200 65
+2025-05-04 22:37:11 - DEBUG - http://192.168.0.119:80 "GET /api/labs/Ansiblelab.unl/nodes/21/start HTTP/1.1" 200 65
+2025-05-04 22:37:11 - DEBUG - http://192.168.0.119:80 "GET /api/labs/Ansiblelab.unl/nodes/20/start HTTP/1.1" 200 65
+2025-05-04 22:37:11 - DEBUG - http://192.168.0.119:80 "GET /api/labs/Ansiblelab.unl/nodes/17/start HTTP/1.1" 200 65
+2025-05-04 22:37:11 - DEBUG - http://192.168.0.119:80 "GET /api/labs/Ansiblelab.unl/nodes/23/start HTTP/1.1" 200 65
+2025-05-04 22:37:11 - DEBUG - http://192.168.0.119:80 "GET /api/labs/Ansiblelab.unl/nodes/26/start HTTP/1.1" 200 65
+2025-05-04 22:37:12 - INFO - Node Cisco Router with ID 16 started successfully.
+2025-05-04 22:37:12 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:12 - DEBUG - http://192.168.0.119:80 "GET /api/labs/Ansiblelab.unl/nodes/16 HTTP/1.1" 200 592
+2025-05-04 22:37:12 - DEBUG - Node Cisco Router with ID 16 status: 2 (Attempt 1/10)
+2025-05-04 22:37:12 - INFO - Node Cisco Router with ID 16 is running.
+2025-05-04 22:37:12 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:12 - DEBUG - http://192.168.0.119:80 "GET /api/labs/Ansiblelab.unl/nodes/16 HTTP/1.1" 200 592
+2025-05-04 22:37:12 - INFO - Connecting to Cisco Router (Device ID: 16) on port 32784 via Telnet.
+2025-05-04 22:37:13 - INFO - Node Cisco Router with ID 19 started successfully.
+2025-05-04 22:37:13 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:13 - DEBUG - http://192.168.0.119:80 "GET /api/labs/Ansiblelab.unl/nodes/19 HTTP/1.1" 200 592
+2025-05-04 22:37:13 - DEBUG - Node Cisco Router with ID 19 status: 2 (Attempt 1/10)
+2025-05-04 22:37:13 - INFO - Node Cisco Router with ID 19 is running.
+2025-05-04 22:37:13 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:13 - INFO - Node Cisco Switch with ID 18 started successfully.
+2025-05-04 22:37:13 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:13 - INFO - Node Arista Switch with ID 22 started successfully.
+2025-05-04 22:37:13 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:13 - DEBUG - http://192.168.0.119:80 "GET /api/labs/Ansiblelab.unl/nodes/19 HTTP/1.1" 200 592
+2025-05-04 22:37:13 - INFO - Connecting to Cisco Router (Device ID: 19) on port 32787 via Telnet.
+2025-05-04 22:37:13 - DEBUG - http://192.168.0.119:80 "GET /api/labs/Ansiblelab.unl/nodes/18 HTTP/1.1" 200 601
+2025-05-04 22:37:13 - DEBUG - Node Cisco Switch with ID 18 status: 2 (Attempt 1/10)
+2025-05-04 22:37:13 - INFO - Node Cisco Switch with ID 18 is running.
+2025-05-04 22:37:13 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:13 - DEBUG - http://192.168.0.119:80 "GET /api/labs/Ansiblelab.unl/nodes/22 HTTP/1.1" 200 591
+2025-05-04 22:37:13 - DEBUG - Node Arista Switch with ID 22 status: 2 (Attempt 1/10)
+2025-05-04 22:37:13 - INFO - Node Arista Switch with ID 22 is running.
+2025-05-04 22:37:13 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:13 - DEBUG - http://192.168.0.119:80 "GET /api/labs/Ansiblelab.unl/nodes/18 HTTP/1.1" 200 601
+2025-05-04 22:37:13 - INFO - Connecting to Cisco Switch (Device ID: 18) on port 32786 via Telnet.
+2025-05-04 22:37:13 - DEBUG - http://192.168.0.119:80 "GET /api/labs/Ansiblelab.unl/nodes/22 HTTP/1.1" 200 591
+2025-05-04 22:37:13 - INFO - Connecting to Arista Switch (Device ID: 22) on port 32790 via Telnet.
+2025-05-04 22:37:13 - INFO - Node Cisco Switch with ID 25 started successfully.
+2025-05-04 22:37:13 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:13 - DEBUG - http://192.168.0.119:80 "GET /api/labs/Ansiblelab.unl/nodes/25 HTTP/1.1" 200 600
+2025-05-04 22:37:13 - DEBUG - Node Cisco Switch with ID 25 status: 2 (Attempt 1/10)
+2025-05-04 22:37:13 - INFO - Node Cisco Switch with ID 25 is running.
+2025-05-04 22:37:13 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:13 - DEBUG - http://192.168.0.119:80 "GET /api/labs/Ansiblelab.unl/nodes/25 HTTP/1.1" 200 600
+2025-05-04 22:37:13 - INFO - Connecting to Cisco Switch (Device ID: 25) on port 32793 via Telnet.
+2025-05-04 22:37:13 - INFO - Node Juniper Firewall with ID 24 started successfully.
+2025-05-04 22:37:13 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:13 - DEBUG - http://192.168.0.119:80 "GET /api/labs/Ansiblelab.unl/nodes/24 HTTP/1.1" 200 584
+2025-05-04 22:37:13 - DEBUG - Node Juniper Firewall with ID 24 status: 2 (Attempt 1/10)
+2025-05-04 22:37:13 - INFO - Node Juniper Firewall with ID 24 is running.
+2025-05-04 22:37:13 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:14 - DEBUG - http://192.168.0.119:80 "GET /api/labs/Ansiblelab.unl/nodes/24 HTTP/1.1" 200 584
+2025-05-04 22:37:14 - INFO - Connecting to Juniper Firewall (Device ID: 24) on port 32792 via Telnet.
+2025-05-04 22:37:14 - INFO - Node Cisco Switch with ID 21 started successfully.
+2025-05-04 22:37:14 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:14 - INFO - Node Cisco Router with ID 20 started successfully.
+2025-05-04 22:37:14 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:14 - DEBUG - http://192.168.0.119:80 "GET /api/labs/Ansiblelab.unl/nodes/21 HTTP/1.1" 200 600
+2025-05-04 22:37:14 - DEBUG - Node Cisco Switch with ID 21 status: 2 (Attempt 1/10)
+2025-05-04 22:37:14 - INFO - Node Cisco Switch with ID 21 is running.
+2025-05-04 22:37:14 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:14 - DEBUG - http://192.168.0.119:80 "GET /api/labs/Ansiblelab.unl/nodes/20 HTTP/1.1" 200 593
+2025-05-04 22:37:14 - DEBUG - Node Cisco Router with ID 20 status: 2 (Attempt 1/10)
+2025-05-04 22:37:14 - INFO - Node Cisco Router with ID 20 is running.
+2025-05-04 22:37:14 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:14 - DEBUG - http://192.168.0.119:80 "GET /api/labs/Ansiblelab.unl/nodes/21 HTTP/1.1" 200 600
+2025-05-04 22:37:14 - INFO - Connecting to Cisco Switch (Device ID: 21) on port 32789 via Telnet.
+2025-05-04 22:37:14 - DEBUG - http://192.168.0.119:80 "GET /api/labs/Ansiblelab.unl/nodes/20 HTTP/1.1" 200 593
+2025-05-04 22:37:14 - INFO - Connecting to Cisco Router (Device ID: 20) on port 32788 via Telnet.
+2025-05-04 22:37:14 - INFO - Node Cisco Router with ID 17 started successfully.
+2025-05-04 22:37:14 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:14 - DEBUG - http://192.168.0.119:80 "GET /api/labs/Ansiblelab.unl/nodes/17 HTTP/1.1" 200 592
+2025-05-04 22:37:14 - DEBUG - Node Cisco Router with ID 17 status: 2 (Attempt 1/10)
+2025-05-04 22:37:14 - INFO - Node Cisco Router with ID 17 is running.
+2025-05-04 22:37:14 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:14 - INFO - Node Juniper Firewall with ID 23 started successfully.
+2025-05-04 22:37:14 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:14 - INFO - Node Arista Switch with ID 26 started successfully.
+2025-05-04 22:37:14 - DEBUG - http://192.168.0.119:80 "GET /api/labs/Ansiblelab.unl/nodes/17 HTTP/1.1" 200 592
+2025-05-04 22:37:15 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:15 - INFO - Connecting to Cisco Router (Device ID: 17) on port 32785 via Telnet.
+2025-05-04 22:37:15 - DEBUG - http://192.168.0.119:80 "GET /api/labs/Ansiblelab.unl/nodes/23 HTTP/1.1" 200 584
+2025-05-04 22:37:15 - DEBUG - Node Juniper Firewall with ID 23 status: 2 (Attempt 1/10)
+2025-05-04 22:37:15 - INFO - Node Juniper Firewall with ID 23 is running.
+2025-05-04 22:37:15 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:15 - DEBUG - http://192.168.0.119:80 "GET /api/labs/Ansiblelab.unl/nodes/26 HTTP/1.1" 200 590
+2025-05-04 22:37:15 - DEBUG - Node Arista Switch with ID 26 status: 2 (Attempt 1/10)
+2025-05-04 22:37:15 - INFO - Node Arista Switch with ID 26 is running.
+2025-05-04 22:37:15 - DEBUG - Starting new HTTP connection (1): 192.168.0.119:80
+2025-05-04 22:37:15 - DEBUG - http://192.168.0.119:80 "GET /api/labs/Ansiblelab.unl/nodes/23 HTTP/1.1" 200 584
+2025-05-04 22:37:15 - INFO - Connecting to Juniper Firewall (Device ID: 23) on port 32791 via Telnet.
+2025-05-04 22:37:15 - DEBUG - http://192.168.0.119:80 "GET /api/labs/Ansiblelab.unl/nodes/26 HTTP/1.1" 200 590
+2025-05-04 22:37:15 - INFO - Connecting to Arista Switch (Device ID: 26) on port 32794 via Telnet.
+2025-05-04 22:37:53 - INFO - Available sheets in configuration file: ['0', '1', '2']
+2025-05-04 22:37:53 - INFO - Applying configuration for Cisco Switch (Device ID: 18, Dev Num: 0).
+2025-05-04 22:37:53 - INFO - Sending command to Cisco Switch (Device ID: 18): configure terminal
+2025-05-04 22:37:53 - INFO - Available sheets in configuration file: ['0', '1', '2']
+2025-05-04 22:37:53 - INFO - Applying configuration for Cisco Switch (Device ID: 25, Dev Num: 2).
+2025-05-04 22:37:53 - INFO - Sending command to Cisco Switch (Device ID: 25): configure terminal
+2025-05-04 22:37:54 - INFO - Available sheets in configuration file: ['0', '1', '2']
+2025-05-04 22:37:54 - INFO - Applying configuration for Cisco Switch (Device ID: 21, Dev Num: 1).
+2025-05-04 22:37:54 - INFO - Sending command to Cisco Switch (Device ID: 21): configure terminal
+2025-05-04 22:37:55 - DEBUG - Response for command 'configure terminal' on Cisco Switch (Device ID: 25): , changed state to up
+*May  4 22:36:18.001: %LINK-3-UPDOWN: Interface GigabitEthernet1/0, changed state to up
+*May  4 22:36:18.002: %LINK-3-UPDOWN: Interface GigabitEthernet0/3, changed state to up
+*May  4 22:36:18.002: %LINK-3-UPDOWN: Interface GigabitEthernet0/2, changed state to up
+*May  4 22:36:18.003: %LINK-3-UPDOWN: Interface GigabitEthernet0/1, changed state to up
+*May  4 22:36:18.003: %LINK-3-UPDOWN: Interface GigabitEthernet0/0, changed state to upial -
+
+Supplemental End User License Restrictions
+
+This IOSv software is provided AS-IS without warranty of any kind. Under no circumstances may this software be used separate from the Cisco Modeling Labs Software that this software was provided with, or deployed or used as part of a production environment.
+
+By using the software, you agree to abide by the terms and conditions of the Cisco End User License Agreement at http://www.cisco.com/go/eula. Unauthorized use or distribution of this software is expressly prohibited.
+
+Switch>
+Switch>enable
+Switch#
+2025-05-04 22:37:55 - INFO - Sending command to Cisco Switch (Device ID: 25): hostname ciscolansw05
+2025-05-04 22:37:55 - DEBUG - Response for command 'hostname ciscolansw05' on Cisco Switch (Device ID: 25): terminal length 0
+Switch#
+2025-05-04 22:37:55 - INFO - Sending command to Cisco Switch (Device ID: 25): interface vlan 1
+2025-05-04 22:37:55 - DEBUG - Response for command 'interface vlan 1' on Cisco Switch (Device ID: 25): configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+Switch(config)#
+2025-05-04 22:37:55 - INFO - Sending command to Cisco Switch (Device ID: 25): ip address 192.168.0.224 255.255.255.0
+2025-05-04 22:37:55 - DEBUG - Response for command 'ip address 192.168.0.224 255.255.255.0' on Cisco Switch (Device ID: 25): hostname ciscolansw05
+ciscolansw05(config)#
+2025-05-04 22:37:55 - INFO - Sending command to Cisco Switch (Device ID: 25): no shutdown
+2025-05-04 22:37:55 - DEBUG - Response for command 'configure terminal' on Cisco Switch (Device ID: 18):  state to up
+*May  4 22:36:18.166: %LINK-3-UPDOWN: Interface GigabitEthernet1/1, changed state to up
+*May  4 22:36:18.166: %LINK-3-UPDOWN: Interface GigabitEthernet1/0, changed state to up
+*May  4 22:36:18.167: %LINK-3-UPDOWN: Interface GigabitEthernet0/3, changed state to up
+*May  4 22:36:18.167: %LINK-3-UPDOWN: Interface GigabitEthernet0/2, changed state to up
+*May  4 22:36:18.168: %LINK-3-UPDOWN: Interface GigabitEthernet0/1, changed state to up
+*May  4 22:36:18.168: %LINK-3-UPDOWN: Interface GigabitEthernet0/0, changed state to upial -
+
+Supplemental End User License Restrictions
+
+This IOSv software is provided AS-IS without warranty of any kind. Under no circumstances may this software be used separate from the Cisco Modeling Labs Software that this software was provided with, or deployed or used as part of a production environment.
+
+By using the software, you agree to abide by the terms and conditions of the Cisco End User License Agreement at http://www.cisco.com/go/eula. Unauthorized use or distribution of this software is expressly prohibited.
+
+Switch>
+Switch>enable
+Switch#
+2025-05-04 22:37:55 - INFO - Sending command to Cisco Switch (Device ID: 18): hostname ciscolansw03
+2025-05-04 22:37:55 - DEBUG - Response for command 'no shutdown' on Cisco Switch (Device ID: 25): interface vlan 1
+ciscolansw05(config-if)#
+2025-05-04 22:37:55 - INFO - Sending command to Cisco Switch (Device ID: 25): interface vlan 10
+2025-05-04 22:37:55 - DEBUG - Response for command 'configure terminal' on Cisco Switch (Device ID: 21): to up
+*May  4 22:36:18.999: %LINK-3-UPDOWN: Interface GigabitEthernet1/0, changed state to up
+*May  4 22:36:18.999: %LINK-3-UPDOWN: Interface GigabitEthernet0/3, changed state to up
+*May  4 22:36:19.000: %LINK-3-UPDOWN: Interface GigabitEthernet0/2, changed state to up
+*May  4 22:36:19.000: %LINK-3-UPDOWN: Interface GigabitEthernet0/1, changed state to up
+*May  4 22:36:19.000: %LINK-3-UPDOWN: Interface GigabitEthernet0/0, changed state to upial -
+
+Supplemental End User License Restrictions
+
+This IOSv software is provided AS-IS without warranty of any kind. Under no circumstances may this software be used separate from the Cisco Modeling Labs Software that this software was provided with, or deployed or used as part of a production environment.
+
+By using the software, you agree to abide by the terms and conditions of the Cisco End User License Agreement at http://www.cisco.com/go/eula. Unauthorized use or distribution of this software is expressly prohibited.
+
+Switch>
+Switch>enable
+Switch#
+2025-05-04 22:37:55 - INFO - Sending command to Cisco Switch (Device ID: 21): hostname ciscolansw04
+2025-05-04 22:37:55 - DEBUG - Response for command 'hostname ciscolansw03' on Cisco Switch (Device ID: 18): terminal length 0
+Switch#
+2025-05-04 22:37:55 - INFO - Sending command to Cisco Switch (Device ID: 18): interface vlan 1
+2025-05-04 22:37:55 - DEBUG - Response for command 'interface vlan 10' on Cisco Switch (Device ID: 25): ip address 192.168.0.224 255.255.255.0
+ciscolansw05(config-if)#
+2025-05-04 22:37:55 - INFO - Sending command to Cisco Switch (Device ID: 25): ip address 10.10.10.19 255.255.255.0
+2025-05-04 22:37:55 - DEBUG - Response for command 'hostname ciscolansw04' on Cisco Switch (Device ID: 21): terminal length 0
+Switch#
+2025-05-04 22:37:55 - INFO - Sending command to Cisco Switch (Device ID: 21): interface vlan 1
+2025-05-04 22:37:55 - DEBUG - Response for command 'interface vlan 1' on Cisco Switch (Device ID: 18): configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+Switch(config)#
+2025-05-04 22:37:55 - INFO - Sending command to Cisco Switch (Device ID: 18): ip address 192.168.0.216 255.255.255.0
+2025-05-04 22:37:55 - DEBUG - Response for command 'ip address 10.10.10.19 255.255.255.0' on Cisco Switch (Device ID: 25): no shutdown
+ciscolansw05(config-if)#
+2025-05-04 22:37:55 - INFO - Sending command to Cisco Switch (Device ID: 25): no shutdown
+2025-05-04 22:37:55 - DEBUG - Response for command 'interface vlan 1' on Cisco Switch (Device ID: 21): configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+Switch(config)#
+2025-05-04 22:37:55 - INFO - Sending command to Cisco Switch (Device ID: 21): ip address 192.168.0.217 255.255.255.0
+2025-05-04 22:37:55 - DEBUG - Response for command 'no shutdown' on Cisco Switch (Device ID: 25): interface vlan 10
+ciscolansw05(config-if)#
+2025-05-04 22:37:55 - INFO - Sending command to Cisco Switch (Device ID: 25): description Firewall Inside
+2025-05-04 22:37:55 - DEBUG - Response for command 'description Firewall Inside' on Cisco Switch (Device ID: 25): ip address 10.10.10.19 255.255.255.0
+ciscolansw05(config-if)#
+2025-05-04 22:37:55 - INFO - Sending command to Cisco Switch (Device ID: 25): vlan 10
+2025-05-04 22:37:56 - DEBUG - Response for command 'ip address 192.168.0.216 255.255.255.0' on Cisco Switch (Device ID: 18): 
+*May  4 22:36:44.968: %PLATFORM-5-SIGNATURE_VERIFIED: Image 'flash0:/vios_l2-adventerprisek9-m' passed code signing verificationhostname ciscolansw03
+ciscolansw03(config)#
+2025-05-04 22:37:56 - INFO - Sending command to Cisco Switch (Device ID: 18): no shutdown
+2025-05-04 22:37:56 - DEBUG - Response for command 'vlan 10' on Cisco Switch (Device ID: 25): no shutdown
+ciscolansw05(config-if)#
+2025-05-04 22:37:56 - INFO - Sending command to Cisco Switch (Device ID: 25): name Inside FW
+2025-05-04 22:37:56 - DEBUG - Response for command 'ip address 192.168.0.217 255.255.255.0' on Cisco Switch (Device ID: 21): 
+*May  4 22:36:45.695: %PLATFORM-5-SIGNATURE_VERIFIED: Image 'flash0:/vios_l2-adventerprisek9-m' passed code signing verificationhostname ciscolansw04
+ciscolansw04(config)#
+2025-05-04 22:37:56 - INFO - Sending command to Cisco Switch (Device ID: 21): no shutdown
+2025-05-04 22:37:56 - DEBUG - Response for command 'no shutdown' on Cisco Switch (Device ID: 18): interface vlan 1
+ciscolansw03(config-if)#
+2025-05-04 22:37:56 - INFO - Sending command to Cisco Switch (Device ID: 18): interface vlan 10
+2025-05-04 22:37:56 - DEBUG - Response for command 'no shutdown' on Cisco Switch (Device ID: 21): interface vlan 1
+ciscolansw04(config-if)#
+2025-05-04 22:37:56 - INFO - Sending command to Cisco Switch (Device ID: 21): interface vlan 10
+2025-05-04 22:37:56 - DEBUG - Response for command 'interface vlan 10' on Cisco Switch (Device ID: 18): ip address 192.168.0.216 255.255.255.0
+ciscolansw03(config-if)#
+2025-05-04 22:37:56 - INFO - Sending command to Cisco Switch (Device ID: 18): ip address 10.10.10.15 255.255.255.0
+2025-05-04 22:37:56 - DEBUG - Response for command 'interface vlan 10' on Cisco Switch (Device ID: 21): ip address 192.168.0.217 255.255.255.0
+ciscolansw04(config-if)#
+2025-05-04 22:37:56 - INFO - Sending command to Cisco Switch (Device ID: 21): ip address 10.10.10.16 255.255.255.0
+2025-05-04 22:37:56 - DEBUG - Response for command 'ip address 10.10.10.15 255.255.255.0' on Cisco Switch (Device ID: 18): no shutdown
+ciscolansw03(config-if)#
+2025-05-04 22:37:56 - INFO - Sending command to Cisco Switch (Device ID: 18): no shutdown
+2025-05-04 22:37:56 - DEBUG - Response for command 'name Inside FW' on Cisco Switch (Device ID: 25): 
+*May  4 22:36:44.800: %PLATFORM-5-SIGNATURE_VERIFIED: Image 'flash0:/vios_l2-adventerprisek9-m' passed code signing verificationdescription Firewall Inside
+ciscolansw05(config-if)#
+2025-05-04 22:37:56 - INFO - Sending command to Cisco Switch (Device ID: 25): state active
+2025-05-04 22:37:56 - DEBUG - Response for command 'ip address 10.10.10.16 255.255.255.0' on Cisco Switch (Device ID: 21): no shutdown
+ciscolansw04(config-if)#
+2025-05-04 22:37:56 - INFO - Sending command to Cisco Switch (Device ID: 21): no shutdown
+2025-05-04 22:37:56 - DEBUG - Response for command 'no shutdown' on Cisco Switch (Device ID: 18): interface vlan 10
+ciscolansw03(config-if)#
+2025-05-04 22:37:56 - INFO - Sending command to Cisco Switch (Device ID: 18): description Firewall Inside
+2025-05-04 22:37:56 - DEBUG - Response for command 'state active' on Cisco Switch (Device ID: 25): vlan 10
+ciscolansw05(config-vlan)#
+2025-05-04 22:37:56 - INFO - Sending command to Cisco Switch (Device ID: 25): interface GigabitEthernet0/0
+2025-05-04 22:37:56 - DEBUG - Response for command 'no shutdown' on Cisco Switch (Device ID: 21): interface vlan 10
+ciscolansw04(config-if)#
+2025-05-04 22:37:56 - INFO - Sending command to Cisco Switch (Device ID: 21): description Firewall Inside
+2025-05-04 22:37:56 - DEBUG - Response for command 'description Firewall Inside' on Cisco Switch (Device ID: 18): ip address 10.10.10.15 255.255.255.0
+ciscolansw03(config-if)#
+2025-05-04 22:37:56 - INFO - Sending command to Cisco Switch (Device ID: 18): vlan 10
+2025-05-04 22:37:56 - DEBUG - Response for command 'interface GigabitEthernet0/0' on Cisco Switch (Device ID: 25): name Inside FW
+ciscolansw05(config-vlan)#
+2025-05-04 22:37:56 - INFO - Sending command to Cisco Switch (Device ID: 25):  switchport access vlan 10
+2025-05-04 22:37:56 - DEBUG - Response for command ' switchport access vlan 10' on Cisco Switch (Device ID: 25): state active
+ciscolansw05(config-vlan)#
+2025-05-04 22:37:56 - INFO - Sending command to Cisco Switch (Device ID: 25):  switchport mode access
+2025-05-04 22:37:56 - DEBUG - Response for command 'description Firewall Inside' on Cisco Switch (Device ID: 21): ip address 10.10.10.16 255.255.255.0
+ciscolansw04(config-if)#
+2025-05-04 22:37:56 - INFO - Sending command to Cisco Switch (Device ID: 21): vlan 10
+2025-05-04 22:37:56 - DEBUG - Response for command 'vlan 10' on Cisco Switch (Device ID: 18): no shutdown
+ciscolansw03(config-if)#
+2025-05-04 22:37:56 - INFO - Sending command to Cisco Switch (Device ID: 18): name Inside FW
+2025-05-04 22:37:56 - DEBUG - Response for command 'vlan 10' on Cisco Switch (Device ID: 21): no shutdown
+ciscolansw04(config-if)#
+2025-05-04 22:37:56 - INFO - Sending command to Cisco Switch (Device ID: 21): name Inside FW
+2025-05-04 22:37:56 - DEBUG - Response for command 'name Inside FW' on Cisco Switch (Device ID: 18): description Firewall Inside
+ciscolansw03(config-if)#
+2025-05-04 22:37:56 - INFO - Sending command to Cisco Switch (Device ID: 18): state active
+2025-05-04 22:37:56 - DEBUG - Response for command 'name Inside FW' on Cisco Switch (Device ID: 21): description Firewall Inside
+ciscolansw04(config-if)#
+2025-05-04 22:37:56 - INFO - Sending command to Cisco Switch (Device ID: 21): state active
+2025-05-04 22:37:56 - DEBUG - Response for command 'state active' on Cisco Switch (Device ID: 18): vlan 10
+ciscolansw03(config-vlan)#
+2025-05-04 22:37:56 - INFO - Sending command to Cisco Switch (Device ID: 18): interface GigabitEthernet0/0
+2025-05-04 22:37:56 - DEBUG - Response for command 'state active' on Cisco Switch (Device ID: 21): vlan 10
+ciscolansw04(config-vlan)#
+2025-05-04 22:37:56 - INFO - Sending command to Cisco Switch (Device ID: 21): interface GigabitEthernet0/0
+2025-05-04 22:37:56 - DEBUG - Response for command ' switchport mode access' on Cisco Switch (Device ID: 25): interface GigabitEthernet0/0
+ciscolansw05(config-if)#
+2025-05-04 22:37:56 - INFO - Sending command to Cisco Switch (Device ID: 25):  negotiation auto
+2025-05-04 22:37:56 - DEBUG - Response for command 'interface GigabitEthernet0/0' on Cisco Switch (Device ID: 18): name Inside FW
+ciscolansw03(config-vlan)#
+2025-05-04 22:37:56 - INFO - Sending command to Cisco Switch (Device ID: 18):  switchport access vlan 10
+2025-05-04 22:37:56 - DEBUG - Response for command 'interface GigabitEthernet0/0' on Cisco Switch (Device ID: 21): name Inside FW
+ciscolansw04(config-vlan)#
+2025-05-04 22:37:56 - INFO - Sending command to Cisco Switch (Device ID: 21):  switchport access vlan 10
+2025-05-04 22:37:56 - DEBUG - Response for command ' negotiation auto' on Cisco Switch (Device ID: 25):  switchport access vlan 10
+ciscolansw05(config-if)#
+2025-05-04 22:37:56 - INFO - Sending command to Cisco Switch (Device ID: 25):  description - to ciscoftd01 G0/1
+2025-05-04 22:37:56 - DEBUG - Response for command ' switchport access vlan 10' on Cisco Switch (Device ID: 18): state active
+ciscolansw03(config-vlan)#
+2025-05-04 22:37:56 - INFO - Sending command to Cisco Switch (Device ID: 18):  switchport mode access
+2025-05-04 22:37:56 - DEBUG - Response for command ' switchport access vlan 10' on Cisco Switch (Device ID: 21): state active
+ciscolansw04(config-vlan)#
+2025-05-04 22:37:56 - INFO - Sending command to Cisco Switch (Device ID: 21):  switchport mode access
+2025-05-04 22:37:56 - DEBUG - Response for command ' description - to ciscoftd01 G0/1' on Cisco Switch (Device ID: 25):  switchport mode access
+ciscolansw05(config-if)#
+2025-05-04 22:37:56 - INFO - Sending command to Cisco Switch (Device ID: 25): interface GigabitEthernet1/1
+2025-05-04 22:37:56 - DEBUG - Response for command 'interface GigabitEthernet1/1' on Cisco Switch (Device ID: 25):  negotiation auto
+ciscolansw05(config-if)#
+2025-05-04 22:37:56 - INFO - Sending command to Cisco Switch (Device ID: 25):  description - to ciscolansw03 - G1/1
+2025-05-04 22:37:57 - DEBUG - Response for command ' switchport mode access' on Cisco Switch (Device ID: 18): interface GigabitEthernet0/0
+ciscolansw03(config-if)#
+2025-05-04 22:37:57 - INFO - Sending command to Cisco Switch (Device ID: 18):  negotiation auto
+2025-05-04 22:37:57 - DEBUG - Response for command ' description - to ciscolansw03 - G1/1' on Cisco Switch (Device ID: 25):  description - to ciscoftd01 G0/1
+ciscolansw05(config-if)#
+2025-05-04 22:37:57 - INFO - Sending command to Cisco Switch (Device ID: 25):  switchport trunk encapsulation dot1q
+2025-05-04 22:37:57 - DEBUG - Response for command ' switchport mode access' on Cisco Switch (Device ID: 21): interface GigabitEthernet0/0
+ciscolansw04(config-if)#
+2025-05-04 22:37:57 - INFO - Sending command to Cisco Switch (Device ID: 21):  negotiation auto
+2025-05-04 22:37:57 - DEBUG - Response for command ' negotiation auto' on Cisco Switch (Device ID: 18):  switchport access vlan 10
+ciscolansw03(config-if)#
+2025-05-04 22:37:57 - INFO - Sending command to Cisco Switch (Device ID: 18):  description - to ciscoftd01 G0/1
+2025-05-04 22:37:57 - DEBUG - Response for command ' switchport trunk encapsulation dot1q' on Cisco Switch (Device ID: 25): interface GigabitEthernet1/1
+ciscolansw05(config-if)#
+2025-05-04 22:37:57 - INFO - Sending command to Cisco Switch (Device ID: 25):  switchport mode trunk
+2025-05-04 22:37:57 - DEBUG - Response for command ' negotiation auto' on Cisco Switch (Device ID: 21):  switchport access vlan 10
+ciscolansw04(config-if)#
+2025-05-04 22:37:57 - INFO - Sending command to Cisco Switch (Device ID: 21):  description - to ciscoftd01 G0/1
+2025-05-04 22:37:57 - DEBUG - Response for command ' description - to ciscoftd01 G0/1' on Cisco Switch (Device ID: 18):  switchport mode access
+ciscolansw03(config-if)#
+2025-05-04 22:37:57 - INFO - Sending command to Cisco Switch (Device ID: 18): interface GigabitEthernet1/1
+2025-05-04 22:37:57 - DEBUG - Response for command ' description - to ciscoftd01 G0/1' on Cisco Switch (Device ID: 21):  switchport mode access
+ciscolansw04(config-if)#
+2025-05-04 22:37:57 - INFO - Sending command to Cisco Switch (Device ID: 21): interface GigabitEthernet1/1
+2025-05-04 22:37:57 - DEBUG - Response for command ' switchport mode trunk' on Cisco Switch (Device ID: 25):  description - to ciscolansw03 - G1/1
+ciscolansw05(config-if)#
+2025-05-04 22:37:57 - INFO - Sending command to Cisco Switch (Device ID: 25):  negotiation auto
+2025-05-04 22:37:57 - DEBUG - Response for command 'interface GigabitEthernet1/1' on Cisco Switch (Device ID: 18):  negotiation auto
+ciscolansw03(config-if)#
+2025-05-04 22:37:57 - INFO - Sending command to Cisco Switch (Device ID: 18):  description - to ciscolansw02 - G1/1
+2025-05-04 22:37:57 - DEBUG - Response for command 'interface GigabitEthernet1/1' on Cisco Switch (Device ID: 21):  negotiation auto
+ciscolansw04(config-if)#
+2025-05-04 22:37:57 - INFO - Sending command to Cisco Switch (Device ID: 21):  description - to ciscolansw03 - G1/1
+2025-05-04 22:37:57 - DEBUG - Response for command ' negotiation auto' on Cisco Switch (Device ID: 25):  switchport trunk encapsulation dot1q
+ciscolansw05(config-if)#
+2025-05-04 22:37:57 - INFO - Sending command to Cisco Switch (Device ID: 25): ip route 0.0.0.0 0.0.0.0 10.10.10.11
+2025-05-04 22:37:57 - DEBUG - Response for command ' description - to ciscolansw02 - G1/1' on Cisco Switch (Device ID: 18):  description - to ciscoftd01 G0/1
+ciscolansw03(config-if)#
+2025-05-04 22:37:57 - INFO - Sending command to Cisco Switch (Device ID: 18):  switchport trunk encapsulation dot1q
+2025-05-04 22:37:57 - DEBUG - Response for command ' description - to ciscolansw03 - G1/1' on Cisco Switch (Device ID: 21):  description - to ciscoftd01 G0/1
+ciscolansw04(config-if)#
+2025-05-04 22:37:57 - INFO - Sending command to Cisco Switch (Device ID: 21):  switchport trunk encapsulation dot1q
+2025-05-04 22:37:57 - DEBUG - Response for command 'ip route 0.0.0.0 0.0.0.0 10.10.10.11' on Cisco Switch (Device ID: 25):  switchport mode trunk
+ciscolansw05(config-if)#
+2025-05-04 22:37:57 - INFO - Sending command to Cisco Switch (Device ID: 25): username admin privilege 15 secret adminpassword
+2025-05-04 22:37:57 - DEBUG - Response for command ' switchport trunk encapsulation dot1q' on Cisco Switch (Device ID: 18): interface GigabitEthernet1/1
+ciscolansw03(config-if)#
+2025-05-04 22:37:57 - INFO - Sending command to Cisco Switch (Device ID: 18):  switchport mode trunk
+2025-05-04 22:37:57 - DEBUG - Response for command ' switchport trunk encapsulation dot1q' on Cisco Switch (Device ID: 21): interface GigabitEthernet1/1
+ciscolansw04(config-if)#
+2025-05-04 22:37:57 - INFO - Sending command to Cisco Switch (Device ID: 21):  switchport mode trunk
+2025-05-04 22:37:57 - DEBUG - Response for command 'username admin privilege 15 secret adminpassword' on Cisco Switch (Device ID: 25):  negotiation auto
+ciscolansw05(config-if)#
+2025-05-04 22:37:57 - INFO - Sending command to Cisco Switch (Device ID: 25): enable secret adminpassword
+2025-05-04 22:37:57 - DEBUG - Response for command ' switchport mode trunk' on Cisco Switch (Device ID: 18):  description - to ciscolansw02 - G1/1
+ciscolansw03(config-if)#
+2025-05-04 22:37:57 - INFO - Sending command to Cisco Switch (Device ID: 18):  negotiation auto
+2025-05-04 22:37:57 - DEBUG - Response for command 'enable secret adminpassword' on Cisco Switch (Device ID: 25): ip route 0.0.0.0 0.0.0.0 10.10.10.11
+ciscolansw05(config)#
+2025-05-04 22:37:57 - INFO - Sending command to Cisco Switch (Device ID: 25): ip domain name  domain.com
+2025-05-04 22:37:57 - DEBUG - Response for command ' switchport mode trunk' on Cisco Switch (Device ID: 21):  description - to ciscolansw03 - G1/1
+ciscolansw04(config-if)#
+2025-05-04 22:37:57 - INFO - Sending command to Cisco Switch (Device ID: 21):  negotiation auto
+2025-05-04 22:37:57 - DEBUG - Response for command ' negotiation auto' on Cisco Switch (Device ID: 18):  switchport trunk encapsulation dot1q
+ciscolansw03(config-if)#
+2025-05-04 22:37:57 - INFO - Sending command to Cisco Switch (Device ID: 18): ip route 0.0.0.0 0.0.0.0 10.10.10.11
+2025-05-04 22:37:57 - DEBUG - Response for command ' negotiation auto' on Cisco Switch (Device ID: 21):  switchport trunk encapsulation dot1q
+ciscolansw04(config-if)#
+2025-05-04 22:37:57 - INFO - Sending command to Cisco Switch (Device ID: 21): ip route 0.0.0.0 0.0.0.0 10.10.10.11
+2025-05-04 22:37:57 - DEBUG - Response for command 'ip domain name  domain.com' on Cisco Switch (Device ID: 25): username admin privilege 15 secret adminpassword
+ciscolansw05(config)#
+2025-05-04 22:37:57 - INFO - Sending command to Cisco Switch (Device ID: 25): line vty 0 4
+2025-05-04 22:37:57 - DEBUG - Response for command 'ip route 0.0.0.0 0.0.0.0 10.10.10.11' on Cisco Switch (Device ID: 18):  switchport mode trunk
+ciscolansw03(config-if)#
+2025-05-04 22:37:57 - INFO - Sending command to Cisco Switch (Device ID: 18): username admin privilege 15 secret adminpassword
+2025-05-04 22:37:57 - DEBUG - Response for command 'ip route 0.0.0.0 0.0.0.0 10.10.10.11' on Cisco Switch (Device ID: 21):  switchport mode trunk
+ciscolansw04(config-if)#
+2025-05-04 22:37:57 - INFO - Sending command to Cisco Switch (Device ID: 21): username admin privilege 15 secret adminpassword
+2025-05-04 22:37:57 - DEBUG - Response for command 'line vty 0 4' on Cisco Switch (Device ID: 25): enable secret adminpassword
+ciscolansw05(config)#
+2025-05-04 22:37:57 - INFO - Sending command to Cisco Switch (Device ID: 25): transport input ssh
+2025-05-04 22:37:57 - DEBUG - Response for command 'username admin privilege 15 secret adminpassword' on Cisco Switch (Device ID: 18):  negotiation auto
+ciscolansw03(config-if)#
+2025-05-04 22:37:57 - INFO - Sending command to Cisco Switch (Device ID: 18): enable secret adminpassword
+2025-05-04 22:37:57 - DEBUG - Response for command 'username admin privilege 15 secret adminpassword' on Cisco Switch (Device ID: 21):  negotiation auto
+ciscolansw04(config-if)#
+2025-05-04 22:37:57 - INFO - Sending command to Cisco Switch (Device ID: 21): enable secret adminpassword
+2025-05-04 22:37:57 - DEBUG - Response for command 'transport input ssh' on Cisco Switch (Device ID: 25): ip domain name  domain.com
+ciscolansw05(config)#
+2025-05-04 22:37:57 - INFO - Sending command to Cisco Switch (Device ID: 25): login local
+2025-05-04 22:37:57 - DEBUG - Response for command 'enable secret adminpassword' on Cisco Switch (Device ID: 18): ip route 0.0.0.0 0.0.0.0 10.10.10.11
+ciscolansw03(config)#
+2025-05-04 22:37:57 - INFO - Sending command to Cisco Switch (Device ID: 18): ip domain name  domain.com
+2025-05-04 22:37:57 - DEBUG - Response for command 'enable secret adminpassword' on Cisco Switch (Device ID: 21): ip route 0.0.0.0 0.0.0.0 10.10.10.11
+ciscolansw04(config)#
+2025-05-04 22:37:57 - INFO - Sending command to Cisco Switch (Device ID: 21): ip domain name  domain.com
+2025-05-04 22:37:57 - DEBUG - Response for command 'login local' on Cisco Switch (Device ID: 25): line vty 0 4
+ciscolansw05(config-line)#
+2025-05-04 22:37:57 - INFO - Sending command to Cisco Switch (Device ID: 25): crypto key generate rsa
+2025-05-04 22:37:58 - DEBUG - Response for command 'ip domain name  domain.com' on Cisco Switch (Device ID: 18): username admin privilege 15 secret adminpassword
+ciscolansw03(config)#
+2025-05-04 22:37:58 - INFO - Sending command to Cisco Switch (Device ID: 18): line vty 0 4
+2025-05-04 22:37:58 - DEBUG - Response for command 'crypto key generate rsa' on Cisco Switch (Device ID: 25): transport input ssh
+ciscolansw05(config-line)#
+2025-05-04 22:37:58 - INFO - Sending command to Cisco Switch (Device ID: 25): 2048
+2025-05-04 22:37:58 - DEBUG - Response for command 'ip domain name  domain.com' on Cisco Switch (Device ID: 21): username admin privilege 15 secret adminpassword
+ciscolansw04(config)#
+2025-05-04 22:37:58 - INFO - Sending command to Cisco Switch (Device ID: 21): line vty 0 4
+2025-05-04 22:37:58 - DEBUG - Response for command 'line vty 0 4' on Cisco Switch (Device ID: 18): enable secret adminpassword
+ciscolansw03(config)#
+2025-05-04 22:37:58 - INFO - Sending command to Cisco Switch (Device ID: 18): transport input ssh
+2025-05-04 22:37:58 - DEBUG - Response for command 'line vty 0 4' on Cisco Switch (Device ID: 21): enable secret adminpassword
+ciscolansw04(config)#
+2025-05-04 22:37:58 - INFO - Sending command to Cisco Switch (Device ID: 21): transport input ssh
+2025-05-04 22:37:58 - DEBUG - Response for command 'transport input ssh' on Cisco Switch (Device ID: 18): ip domain name  domain.com
+ciscolansw03(config)#
+2025-05-04 22:37:58 - INFO - Sending command to Cisco Switch (Device ID: 18): login local
+2025-05-04 22:37:58 - DEBUG - Response for command 'transport input ssh' on Cisco Switch (Device ID: 21): ip domain name  domain.com
+ciscolansw04(config)#
+2025-05-04 22:37:58 - INFO - Sending command to Cisco Switch (Device ID: 21): login local
+2025-05-04 22:37:58 - DEBUG - Response for command 'login local' on Cisco Switch (Device ID: 18): line vty 0 4
+ciscolansw03(config-line)#
+2025-05-04 22:37:58 - INFO - Sending command to Cisco Switch (Device ID: 18): crypto key generate rsa
+2025-05-04 22:37:58 - DEBUG - Response for command 'login local' on Cisco Switch (Device ID: 21): line vty 0 4
+ciscolansw04(config-line)#
+2025-05-04 22:37:58 - INFO - Sending command to Cisco Switch (Device ID: 21): crypto key generate rsa
+2025-05-04 22:37:58 - DEBUG - Response for command 'crypto key generate rsa' on Cisco Switch (Device ID: 18): transport input ssh
+ciscolansw03(config-line)#
+2025-05-04 22:37:58 - INFO - Sending command to Cisco Switch (Device ID: 18): 2048
+2025-05-04 22:37:58 - DEBUG - Response for command 'crypto key generate rsa' on Cisco Switch (Device ID: 21): transport input ssh
+ciscolansw04(config-line)#
+2025-05-04 22:37:58 - INFO - Sending command to Cisco Switch (Device ID: 21): 2048
+2025-05-04 22:37:58 - DEBUG - Response for command '2048' on Cisco Switch (Device ID: 25): 
+*May  4 22:36:47.220: %LINEPROTO-5-UPDOWN: Line protocol on Interface Vlan1, changed state to up
+*May  4 22:36:47.501: %LINEPROTO-5-UPDOWN: Line protocol on Interface Vlan10, changed state to downlogin local
+ciscolansw05(config-line)#
+2025-05-04 22:37:58 - INFO - Sending command to Cisco Switch (Device ID: 25): ip ssh version 2
+2025-05-04 22:37:58 - DEBUG - Response for command '2048' on Cisco Switch (Device ID: 18): login local
+ciscolansw03(config-line)#
+2025-05-04 22:37:58 - INFO - Sending command to Cisco Switch (Device ID: 18): ip ssh version 2
+2025-05-04 22:37:58 - DEBUG - Response for command '2048' on Cisco Switch (Device ID: 21): login local
+ciscolansw04(config-line)#
+2025-05-04 22:37:58 - INFO - Sending command to Cisco Switch (Device ID: 21): ip ssh version 2
+2025-05-04 22:37:59 - DEBUG - Response for command 'ip ssh version 2' on Cisco Switch (Device ID: 18): crypto key generate rsa
+The name for the keys will be: ciscolansw03.domain.com
+Choose the size of the key modulus in the range of 360 to 4096 for your
+  General Purpose Keys. Choosing a key modulus greater than 512 may take
+  a few minutes.
+
+How many bits in the modulus [512]: 2048
+% Generating 2048 bit RSA keys, keys will be non-exportable...
+*May  4 22:36:47.445: %LINEPROTO-5-UPDOWN: Line protocol on Interface Vlan1, changed state to up
+*May  4 22:36:47.887: %LINEPROTO-5-UPDOWN: Line protocol on Interface Vlan10, changed state to down
+[OK] (elapsed time was 0 seconds)
+
+ciscolansw03(config)#
+2025-05-04 22:37:59 - INFO - Sending command to Cisco Switch (Device ID: 18): exit
+2025-05-04 22:37:59 - DEBUG - Response for command 'exit' on Cisco Switch (Device ID: 18): ip ssh version 2
+ciscolansw03(config)#
+2025-05-04 22:37:59 - INFO - Telnet connection closed for Cisco Switch (Device ID: 18).
+2025-05-04 22:37:59 - DEBUG - Response for command 'ip ssh version 2' on Cisco Switch (Device ID: 25): crypto key generate rsa
+The name for the keys will be: ciscolansw05.domain.com
+Choose the size of the key modulus in the range of 360 to 4096 for your
+  General Purpose Keys. Choosing a key modulus greater than 512 may take
+  a few minutes.
+
+How many bits in the modulus [512]: 2048
+% Generating 2048 bit RSA keys, keys will be non-exportable...
+*May  4 22:36:48.416: %LINK-3-UPDOWN: Interface Vlan1, changed state to up
+*May  4 22:36:48.657: %LINK-3-UPDOWN: Interface Vlan10, changed state to down
+[OK] (elapsed time was 2 seconds)
+
+ciscolansw05(config)#
+2025-05-04 22:37:59 - INFO - Sending command to Cisco Switch (Device ID: 25): exit
+2025-05-04 22:37:59 - DEBUG - Response for command 'exit' on Cisco Switch (Device ID: 25): ip ssh version 2
+ciscolansw05(config)#
+2025-05-04 22:37:59 - INFO - Telnet connection closed for Cisco Switch (Device ID: 25).
+2025-05-04 22:37:59 - DEBUG - Response for command 'ip ssh version 2' on Cisco Switch (Device ID: 21): 
+*May  4 22:36:48.216: %LINEPROTO-5-UPDOWN: Line protocol on Interface Vlan1, changed state to up
+*May  4 22:36:48.660: %LINEPROTO-5-UPDOWN: Line protocol on Interface Vlan10, changed state to downcrypto key generate rsa
+The name for the keys will be: ciscolansw04.domain.com
+Choose the size of the key modulus in the range of 360 to 4096 for your
+  General Purpose Keys. Choosing a key modulus greater than 512 may take
+  a few minutes.
+
+How many bits in the modulus [512]: 2048
+% Generating 2048 bit RSA keys, keys will be non-exportable...
+*May  4 22:36:49.572: %LINK-3-UPDOWN: Interface Vlan1, changed state to up
+*May  4 22:36:49.814: %LINK-3-UPDOWN: Interface Vlan10, changed state to down
+[OK] (elapsed time was 2 seconds)
+
+ciscolansw04(config)#
+2025-05-04 22:37:59 - INFO - Sending command to Cisco Switch (Device ID: 21): exit
+2025-05-04 22:37:59 - DEBUG - Response for command 'exit' on Cisco Switch (Device ID: 21): ip ssh version 2
+ciscolansw04(config)#
+2025-05-04 22:37:59 - INFO - Telnet connection closed for Cisco Switch (Device ID: 21).
+2025-05-04 22:38:32 - DEBUG - Telnet connection established for Cisco Router (Device ID: 16).
+2025-05-04 22:38:33 - DEBUG - Telnet connection established for Cisco Router (Device ID: 19).
+2025-05-04 22:38:33 - DEBUG - Telnet connection established for Cisco Router (Device ID: 20).
+2025-05-04 22:38:34 - DEBUG - Telnet connection established for Cisco Router (Device ID: 17).
+2025-05-04 22:38:47 - DEBUG - Telnet prompt for Cisco Router (Device ID: 16): 
+*May  4 22:37:35.157: %PNP-6-PNP_TECH_SUMMARY_SAVED_OK: PnP tech summary (/pnp-tech/pnp-tech-discovery-summary) saved successfully (elapsed time: 17 seconds).
+*May  4 22:37:35.158: %PNP-6-PNP_DISCOVERY_STOPPED: PnP Discovery stopped (Config Wizard)
+2025-05-04 22:38:47 - DEBUG - Telnet enable prompt for Cisco Router (Device ID: 16): 
+*May  4 22:37:35.157: %PNP-6-PNP_TECH_SUMMARY_SAVED_OK: PnP tech summary (/pnp-tech/pnp-tech-discovery-summary) saved successfully (elapsed time: 17 seconds).
+*May  4 22:37:35.158: %PNP-6-PNP_DISCOVERY_STOPPED: PnP Discovery stopped (Config Wizard)
+2025-05-04 22:38:48 - DEBUG - Telnet prompt for Cisco Router (Device ID: 20): 
+*May  4 22:37:36.030: %PNP-6-PNP_TECH_SUMMARY_SAVED_OK: PnP tech summary (/pnp-tech/pnp-tech-discovery-summary) saved successfully (elapsed time: 17 seconds).
+*May  4 22:37:36.030: %PNP-6-PNP_DISCOVERY_STOPPED: PnP Discovery stopped (Config Wizard)
+2025-05-04 22:38:48 - DEBUG - Telnet enable prompt for Cisco Router (Device ID: 20): 
+*May  4 22:37:36.030: %PNP-6-PNP_TECH_SUMMARY_SAVED_OK: PnP tech summary (/pnp-tech/pnp-tech-discovery-summary) saved successfully (elapsed time: 17 seconds).
+*May  4 22:37:36.030: %PNP-6-PNP_DISCOVERY_STOPPED: PnP Discovery stopped (Config Wizard)
+2025-05-04 22:38:49 - DEBUG - Telnet prompt for Cisco Router (Device ID: 19): 
+*May  4 22:37:35.289: %PNP-6-PNP_TECH_SUMMARY_SAVED_OK: PnP tech summary (/pnp-tech/pnp-tech-discovery-summary) saved successfully (elapsed time: 17 seconds).
+*May  4 22:37:35.289: %PNP-6-PNP_DISCOVERY_STOPPED: PnP Discovery stopped (Config Wizard)
+2025-05-04 22:38:49 - DEBUG - Telnet enable prompt for Cisco Router (Device ID: 19): 
+*May  4 22:37:35.289: %PNP-6-PNP_TECH_SUMMARY_SAVED_OK: PnP tech summary (/pnp-tech/pnp-tech-discovery-summary) saved successfully (elapsed time: 17 seconds).
+*May  4 22:37:35.289: %PNP-6-PNP_DISCOVERY_STOPPED: PnP Discovery stopped (Config Wizard)
+2025-05-04 22:38:49 - DEBUG - Telnet terminal length 0 prompt for Cisco Router (Device ID: 16): terminal length 0
+Router#
+2025-05-04 22:38:50 - DEBUG - Telnet terminal length 0 prompt for Cisco Router (Device ID: 20): terminal length 0
+Router#
+2025-05-04 22:38:50 - DEBUG - Telnet prompt for Cisco Router (Device ID: 17): 36.484: %PNP-6-PNP_TECH_SUMMARY_SAVED_OK: PnP tech summary (/pnp-tech/pnp-tech-discovery-summary) saved successfully (elapsed time: 17 seconds).
+*May  4 22:37:36.485: %PNP-6-PNP_DISCOVERY_STOPPED: PnP Discovery stopped (Config Wizard)
+2025-05-04 22:38:50 - DEBUG - Telnet enable prompt for Cisco Router (Device ID: 17): 36.484: %PNP-6-PNP_TECH_SUMMARY_SAVED_OK: PnP tech summary (/pnp-tech/pnp-tech-discovery-summary) saved successfully (elapsed time: 17 seconds).
+*May  4 22:37:36.485: %PNP-6-PNP_DISCOVERY_STOPPED: PnP Discovery stopped (Config Wizard)
+2025-05-04 22:38:51 - DEBUG - Telnet terminal length 0 prompt for Cisco Router (Device ID: 19): terminal length 0
+Router#
+2025-05-04 22:38:52 - DEBUG - Telnet terminal length 0 prompt for Cisco Router (Device ID: 17): terminal length 0
+Router#
+2025-05-04 22:38:59 - INFO - Applying configuration to Cisco Router (Device ID: 16).
+2025-05-04 22:38:59 - INFO - Available sheets in configuration file: ['0', '1', '2', '3']
+2025-05-04 22:38:59 - INFO - Applying configuration for Cisco Router (Device ID: 16, Dev Num: 1).
+2025-05-04 22:38:59 - INFO - Sending command to Cisco Router (Device ID: 16): conf t
+2025-05-04 22:39:00 - DEBUG - Response for command 'conf t' on Cisco Router (Device ID: 16): conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router(config)#
+2025-05-04 22:39:00 - INFO - Sending command to Cisco Router (Device ID: 16): hostname ciscorouter04
+2025-05-04 22:39:00 - DEBUG - Response for command 'hostname ciscorouter04' on Cisco Router (Device ID: 16): hostname ciscorouter04
+ciscorouter04(config)#
+2025-05-04 22:39:00 - INFO - Sending command to Cisco Router (Device ID: 16): int g0/0
+2025-05-04 22:39:00 - DEBUG - Response for command 'int g0/0' on Cisco Router (Device ID: 16): int g0/0
+ciscorouter04(config-if)#
+2025-05-04 22:39:00 - INFO - Sending command to Cisco Router (Device ID: 16): ip address 192.168.0.215 255.255.255.0
+2025-05-04 22:39:00 - DEBUG - Response for command 'ip address 192.168.0.215 255.255.255.0' on Cisco Router (Device ID: 16): ip address 192.168.0.215 255.255.255.0
+ciscorouter04(config-if)#
+2025-05-04 22:39:00 - INFO - Sending command to Cisco Router (Device ID: 16): description mgmt network
+2025-05-04 22:39:00 - INFO - Applying configuration to Cisco Router (Device ID: 20).
+2025-05-04 22:39:00 - INFO - Available sheets in configuration file: ['0', '1', '2', '3']
+2025-05-04 22:39:00 - INFO - Applying configuration for Cisco Router (Device ID: 20, Dev Num: 0).
+2025-05-04 22:39:00 - INFO - Sending command to Cisco Router (Device ID: 20): conf t
+2025-05-04 22:39:00 - DEBUG - Response for command 'description mgmt network' on Cisco Router (Device ID: 16): description mgmt network
+ciscorouter04(config-if)#
+2025-05-04 22:39:00 - INFO - Sending command to Cisco Router (Device ID: 16): no shutdown
+2025-05-04 22:39:00 - DEBUG - Response for command 'conf t' on Cisco Router (Device ID: 20): conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router(config)#
+2025-05-04 22:39:00 - INFO - Sending command to Cisco Router (Device ID: 20): hostname ciscorouter03
+2025-05-04 22:39:00 - DEBUG - Response for command 'no shutdown' on Cisco Router (Device ID: 16): no shutdown
+ciscorouter04(config-if)#
+2025-05-04 22:39:00 - INFO - Sending command to Cisco Router (Device ID: 16): int g0/2
+2025-05-04 22:39:00 - DEBUG - Response for command 'hostname ciscorouter03' on Cisco Router (Device ID: 20): hostname ciscorouter03
+ciscorouter03(config)#
+2025-05-04 22:39:00 - INFO - Sending command to Cisco Router (Device ID: 20): int g0/0
+2025-05-04 22:39:00 - DEBUG - Response for command 'int g0/2' on Cisco Router (Device ID: 16): int g0/2
+ciscorouter04(config-if)#
+2025-05-04 22:39:00 - INFO - Sending command to Cisco Router (Device ID: 16): ip address 200.200.200.17 255.255.255.0
+2025-05-04 22:39:00 - DEBUG - Response for command 'int g0/0' on Cisco Router (Device ID: 20): int g0/0
+ciscorouter03(config-if)#
+2025-05-04 22:39:00 - INFO - Sending command to Cisco Router (Device ID: 20): ip address 192.168.0.214 255.255.255.0
+2025-05-04 22:39:00 - DEBUG - Response for command 'ip address 200.200.200.17 255.255.255.0' on Cisco Router (Device ID: 16): ip address 200.200.200.17 255.255.255.0
+ciscorouter04(config-if)#
+2025-05-04 22:39:00 - INFO - Sending command to Cisco Router (Device ID: 16): no shutdown
+2025-05-04 22:39:00 - DEBUG - Response for command 'ip address 192.168.0.214 255.255.255.0' on Cisco Router (Device ID: 20): ip address 192.168.0.214 255.255.255.0
+ciscorouter03(config-if)#
+2025-05-04 22:39:00 - INFO - Sending command to Cisco Router (Device ID: 20): description mgmt network
+2025-05-04 22:39:00 - DEBUG - Response for command 'description mgmt network' on Cisco Router (Device ID: 20): description mgmt network
+ciscorouter03(config-if)#
+2025-05-04 22:39:00 - INFO - Sending command to Cisco Router (Device ID: 20): no shutdown
+2025-05-04 22:39:01 - DEBUG - Response for command 'no shutdown' on Cisco Router (Device ID: 16): no shutdown
+ciscorouter04(config-if)#
+2025-05-04 22:39:01 - INFO - Sending command to Cisco Router (Device ID: 16): description connection to cloud1
+2025-05-04 22:39:01 - DEBUG - Response for command 'description connection to cloud1' on Cisco Router (Device ID: 16): description connection to cloud1
+ciscorouter04(config-if)#
+2025-05-04 22:39:01 - INFO - Sending command to Cisco Router (Device ID: 16): int g0/1
+2025-05-04 22:39:01 - DEBUG - Response for command 'no shutdown' on Cisco Router (Device ID: 20): no shutdown
+ciscorouter03(config-if)#
+2025-05-04 22:39:01 - INFO - Sending command to Cisco Router (Device ID: 20): int g0/2
+2025-05-04 22:39:01 - DEBUG - Response for command 'int g0/1' on Cisco Router (Device ID: 16): int g0/1
+ciscorouter04(config-if)#
+2025-05-04 22:39:01 - INFO - Sending command to Cisco Router (Device ID: 16): ip address 201.200.200.19 255.255.255.0
+2025-05-04 22:39:01 - DEBUG - Response for command 'int g0/2' on Cisco Router (Device ID: 20): int g0/2
+ciscorouter03(config-if)#
+2025-05-04 22:39:01 - INFO - Sending command to Cisco Router (Device ID: 20): ip address 200.200.200.16 255.255.255.0
+2025-05-04 22:39:01 - DEBUG - Response for command 'ip address 200.200.200.16 255.255.255.0' on Cisco Router (Device ID: 20): ip address 200.200.200.16 255.255.255.0
+ciscorouter03(config-if)#
+2025-05-04 22:39:01 - INFO - Sending command to Cisco Router (Device ID: 20): no shutdown
+2025-05-04 22:39:01 - INFO - Applying configuration to Cisco Router (Device ID: 19).
+2025-05-04 22:39:01 - DEBUG - Response for command 'ip address 201.200.200.19 255.255.255.0' on Cisco Router (Device ID: 16): ip address 201.200.200.19 255.255.255.0
+ciscorouter04(config-if)#
+2025-05-04 22:39:01 - INFO - Sending command to Cisco Router (Device ID: 16): no shutdown
+2025-05-04 22:39:01 - INFO - Available sheets in configuration file: ['0', '1', '2', '3']
+2025-05-04 22:39:01 - INFO - Applying configuration for Cisco Router (Device ID: 19, Dev Num: 2).
+2025-05-04 22:39:01 - INFO - Sending command to Cisco Router (Device ID: 19): conf t
+2025-05-04 22:39:01 - DEBUG - Response for command 'conf t' on Cisco Router (Device ID: 19): conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router(config)#
+2025-05-04 22:39:01 - INFO - Sending command to Cisco Router (Device ID: 19): hostname ciscorouter05
+2025-05-04 22:39:01 - DEBUG - Response for command 'no shutdown' on Cisco Router (Device ID: 20): no shutdown
+ciscorouter03(config-if)#
+2025-05-04 22:39:01 - INFO - Sending command to Cisco Router (Device ID: 20): description connection to cloud1
+2025-05-04 22:39:01 - DEBUG - Response for command 'no shutdown' on Cisco Router (Device ID: 16): no shutdown
+ciscorouter04(config-if)#
+2025-05-04 22:39:01 - INFO - Sending command to Cisco Router (Device ID: 16): description connection to firewall ciscoftd02
+2025-05-04 22:39:01 - DEBUG - Response for command 'hostname ciscorouter05' on Cisco Router (Device ID: 19): hostname ciscorouter05
+ciscorouter05(config)#
+2025-05-04 22:39:01 - INFO - Sending command to Cisco Router (Device ID: 19): int g0/0
+2025-05-04 22:39:01 - DEBUG - Response for command 'description connection to cloud1' on Cisco Router (Device ID: 20): description connection to cloud1
+ciscorouter03(config-if)#
+2025-05-04 22:39:01 - INFO - Sending command to Cisco Router (Device ID: 20): int g0/1
+2025-05-04 22:39:01 - DEBUG - Response for command 'int g0/0' on Cisco Router (Device ID: 19): int g0/0
+ciscorouter05(config-if)#
+2025-05-04 22:39:01 - INFO - Sending command to Cisco Router (Device ID: 19): ip address 192.168.0.217 255.255.255.0
+2025-05-04 22:39:01 - DEBUG - Response for command 'description connection to firewall ciscoftd02' on Cisco Router (Device ID: 16): description connection to firewall ciscoftd02
+ciscorouter04(config-if)#
+2025-05-04 22:39:01 - INFO - Sending command to Cisco Router (Device ID: 16): username admin privilege 15 secret adminpassword
+2025-05-04 22:39:01 - DEBUG - Response for command 'int g0/1' on Cisco Router (Device ID: 20): int g0/1
+ciscorouter03(config-if)#
+2025-05-04 22:39:01 - INFO - Sending command to Cisco Router (Device ID: 20): ip address 201.200.200.18 255.255.255.0
+2025-05-04 22:39:01 - DEBUG - Response for command 'ip address 192.168.0.217 255.255.255.0' on Cisco Router (Device ID: 19): ip address 192.168.0.217 255.255.255.0
+ciscorouter05(config-if)#
+2025-05-04 22:39:01 - INFO - Sending command to Cisco Router (Device ID: 19): description mgmt network
+2025-05-04 22:39:01 - DEBUG - Response for command 'username admin privilege 15 secret adminpassword' on Cisco Router (Device ID: 16): username admin privilege 15 secret adminpassword
+ciscorouter04(config)#
+2025-05-04 22:39:01 - INFO - Sending command to Cisco Router (Device ID: 16): enable secret adminpassword
+2025-05-04 22:39:01 - DEBUG - Response for command 'ip address 201.200.200.18 255.255.255.0' on Cisco Router (Device ID: 20): ip address 201.200.200.18 255.255.255.0
+ciscorouter03(config-if)#
+2025-05-04 22:39:01 - INFO - Sending command to Cisco Router (Device ID: 20): no shutdown
+2025-05-04 22:39:01 - DEBUG - Response for command 'description mgmt network' on Cisco Router (Device ID: 19): description mgmt network
+ciscorouter05(config-if)#
+2025-05-04 22:39:01 - INFO - Sending command to Cisco Router (Device ID: 19): no shutdown
+2025-05-04 22:39:01 - DEBUG - Response for command 'enable secret adminpassword' on Cisco Router (Device ID: 16): enable secret adminpassword
+ciscorouter04(config)#
+2025-05-04 22:39:01 - INFO - Sending command to Cisco Router (Device ID: 16): line vty 0 4
+2025-05-04 22:39:02 - DEBUG - Response for command 'line vty 0 4' on Cisco Router (Device ID: 16): line vty 0 4
+ciscorouter04(config-line)#
+2025-05-04 22:39:02 - INFO - Sending command to Cisco Router (Device ID: 16): transport input ssh
+2025-05-04 22:39:02 - DEBUG - Response for command 'no shutdown' on Cisco Router (Device ID: 20): no shutdown
+ciscorouter03(config-if)#
+2025-05-04 22:39:02 - INFO - Sending command to Cisco Router (Device ID: 20): description connection to firewall ciscoftd02
+2025-05-04 22:39:02 - DEBUG - Response for command 'transport input ssh' on Cisco Router (Device ID: 16): transport input ssh
+ciscorouter04(config-line)#
+2025-05-04 22:39:02 - INFO - Sending command to Cisco Router (Device ID: 16): login local
+2025-05-04 22:39:02 - DEBUG - Response for command 'no shutdown' on Cisco Router (Device ID: 19): no shutdown
+ciscorouter05(config-if)#
+2025-05-04 22:39:02 - INFO - Sending command to Cisco Router (Device ID: 19): int g0/2
+2025-05-04 22:39:02 - DEBUG - Response for command 'login local' on Cisco Router (Device ID: 16): login local
+ciscorouter04(config-line)#
+2025-05-04 22:39:02 - INFO - Sending command to Cisco Router (Device ID: 16): ip domain name domain.com
+2025-05-04 22:39:02 - DEBUG - Response for command 'description connection to firewall ciscoftd02' on Cisco Router (Device ID: 20): description connection to firewall ciscoftd02
+ciscorouter03(config-if)#
+2025-05-04 22:39:02 - INFO - Sending command to Cisco Router (Device ID: 20): username admin privilege 15 secret adminpassword
+2025-05-04 22:39:02 - DEBUG - Response for command 'int g0/2' on Cisco Router (Device ID: 19): int g0/2
+ciscorouter05(config-if)#
+2025-05-04 22:39:02 - INFO - Sending command to Cisco Router (Device ID: 19): ip address 200.200.200.24 255.255.255.0
+2025-05-04 22:39:02 - DEBUG - Response for command 'ip domain name domain.com' on Cisco Router (Device ID: 16): ip domain name domain.com
+ciscorouter04(config)#
+2025-05-04 22:39:02 - INFO - Sending command to Cisco Router (Device ID: 16): crypto key generate rsa
+2025-05-04 22:39:02 - DEBUG - Response for command 'ip address 200.200.200.24 255.255.255.0' on Cisco Router (Device ID: 19): ip address 200.200.200.24 255.255.255.0
+ciscorouter05(config-if)#
+2025-05-04 22:39:02 - INFO - Sending command to Cisco Router (Device ID: 19): no shutdown
+2025-05-04 22:39:02 - DEBUG - Response for command 'username admin privilege 15 secret adminpassword' on Cisco Router (Device ID: 20): username admin privilege 15 secret adminpassword
+ciscorouter03(config)#
+2025-05-04 22:39:02 - INFO - Sending command to Cisco Router (Device ID: 20): enable secret adminpassword
+2025-05-04 22:39:02 - DEBUG - Response for command 'enable secret adminpassword' on Cisco Router (Device ID: 20): enable secret adminpassword
+ciscorouter03(config)#
+2025-05-04 22:39:02 - INFO - Sending command to Cisco Router (Device ID: 20): line vty 0 4
+2025-05-04 22:39:02 - DEBUG - Response for command 'line vty 0 4' on Cisco Router (Device ID: 20): line vty 0 4
+ciscorouter03(config-line)#
+2025-05-04 22:39:02 - INFO - Sending command to Cisco Router (Device ID: 20): transport input ssh
+2025-05-04 22:39:02 - DEBUG - Response for command 'no shutdown' on Cisco Router (Device ID: 19): no shutdown
+ciscorouter05(config-if)#
+2025-05-04 22:39:02 - INFO - Sending command to Cisco Router (Device ID: 19): description connection to cloud1
+2025-05-04 22:39:02 - DEBUG - Response for command 'transport input ssh' on Cisco Router (Device ID: 20): transport input ssh
+ciscorouter03(config-line)#
+2025-05-04 22:39:02 - INFO - Sending command to Cisco Router (Device ID: 20): login local
+2025-05-04 22:39:02 - DEBUG - Response for command 'description connection to cloud1' on Cisco Router (Device ID: 19): description connection to cloud1
+ciscorouter05(config-if)#
+2025-05-04 22:39:02 - INFO - Sending command to Cisco Router (Device ID: 19): int g0/1
+2025-05-04 22:39:02 - DEBUG - Response for command 'login local' on Cisco Router (Device ID: 20): login local
+ciscorouter03(config-line)#
+2025-05-04 22:39:02 - INFO - Sending command to Cisco Router (Device ID: 20): ip domain name domain.com
+2025-05-04 22:39:02 - INFO - Applying configuration to Cisco Router (Device ID: 17).
+2025-05-04 22:39:02 - DEBUG - Response for command 'int g0/1' on Cisco Router (Device ID: 19): int g0/1
+ciscorouter05(config-if)#
+2025-05-04 22:39:02 - INFO - Sending command to Cisco Router (Device ID: 19): ip address 201.200.200.23 255.255.255.0
+2025-05-04 22:39:02 - INFO - Available sheets in configuration file: ['0', '1', '2', '3']
+2025-05-04 22:39:02 - INFO - Applying configuration for Cisco Router (Device ID: 17, Dev Num: 3).
+2025-05-04 22:39:02 - INFO - Sending command to Cisco Router (Device ID: 17): conf t
+2025-05-04 22:39:02 - DEBUG - Response for command 'ip domain name domain.com' on Cisco Router (Device ID: 20): ip domain name domain.com
+ciscorouter03(config)#
+2025-05-04 22:39:02 - INFO - Sending command to Cisco Router (Device ID: 20): crypto key generate rsa
+2025-05-04 22:39:02 - DEBUG - Response for command 'ip address 201.200.200.23 255.255.255.0' on Cisco Router (Device ID: 19): ip address 201.200.200.23 255.255.255.0
+ciscorouter05(config-if)#
+2025-05-04 22:39:02 - INFO - Sending command to Cisco Router (Device ID: 19): no shutdown
+2025-05-04 22:39:02 - DEBUG - Response for command 'conf t' on Cisco Router (Device ID: 17): conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router(config)#
+2025-05-04 22:39:02 - INFO - Sending command to Cisco Router (Device ID: 17): hostname ciscorouter06
+2025-05-04 22:39:03 - DEBUG - Response for command 'hostname ciscorouter06' on Cisco Router (Device ID: 17): hostname ciscorouter06
+ciscorouter06(config)#
+2025-05-04 22:39:03 - INFO - Sending command to Cisco Router (Device ID: 17): int g0/0
+2025-05-04 22:39:03 - DEBUG - Response for command 'int g0/0' on Cisco Router (Device ID: 17): int g0/0
+ciscorouter06(config-if)#
+2025-05-04 22:39:03 - INFO - Sending command to Cisco Router (Device ID: 17): ip address 192.168.0.218 255.255.255.0
+2025-05-04 22:39:03 - DEBUG - Response for command 'no shutdown' on Cisco Router (Device ID: 19): no shutdown
+ciscorouter05(config-if)#
+2025-05-04 22:39:03 - INFO - Sending command to Cisco Router (Device ID: 19): description connection to firewall ciscoftd02
+2025-05-04 22:39:03 - DEBUG - Response for command 'ip address 192.168.0.218 255.255.255.0' on Cisco Router (Device ID: 17): ip address 192.168.0.218 255.255.255.0
+ciscorouter06(config-if)#
+2025-05-04 22:39:03 - INFO - Sending command to Cisco Router (Device ID: 17): description mgmt network
+2025-05-04 22:39:03 - DEBUG - Response for command 'description connection to firewall ciscoftd02' on Cisco Router (Device ID: 19): description connection to firewall ciscoftd02
+ciscorouter05(config-if)#
+2025-05-04 22:39:03 - INFO - Sending command to Cisco Router (Device ID: 19): username admin privilege 15 secret adminpassword
+2025-05-04 22:39:03 - DEBUG - Response for command 'description mgmt network' on Cisco Router (Device ID: 17): description mgmt network
+ciscorouter06(config-if)#
+2025-05-04 22:39:03 - INFO - Sending command to Cisco Router (Device ID: 17): no shutdown
+2025-05-04 22:39:03 - DEBUG - Response for command 'username admin privilege 15 secret adminpassword' on Cisco Router (Device ID: 19): username admin privilege 15 secret adminpassword
+ciscorouter05(config)#
+2025-05-04 22:39:03 - INFO - Sending command to Cisco Router (Device ID: 19): enable secret adminpassword
+2025-05-04 22:39:03 - DEBUG - Response for command 'enable secret adminpassword' on Cisco Router (Device ID: 19): enable secret adminpassword
+ciscorouter05(config)#
+2025-05-04 22:39:03 - INFO - Sending command to Cisco Router (Device ID: 19): line vty 0 4
+2025-05-04 22:39:03 - DEBUG - Response for command 'no shutdown' on Cisco Router (Device ID: 17): no shutdown
+ciscorouter06(config-if)#
+2025-05-04 22:39:03 - INFO - Sending command to Cisco Router (Device ID: 17): int g0/2
+2025-05-04 22:39:03 - DEBUG - Response for command 'line vty 0 4' on Cisco Router (Device ID: 19): line vty 0 4
+ciscorouter05(config-line)#
+2025-05-04 22:39:03 - INFO - Sending command to Cisco Router (Device ID: 19): transport input ssh
+2025-05-04 22:39:03 - DEBUG - Response for command 'int g0/2' on Cisco Router (Device ID: 17): int g0/2
+ciscorouter06(config-if)#
+2025-05-04 22:39:03 - INFO - Sending command to Cisco Router (Device ID: 17): ip address 200.200.200.22 255.255.255.0
+2025-05-04 22:39:03 - DEBUG - Response for command 'transport input ssh' on Cisco Router (Device ID: 19): transport input ssh
+ciscorouter05(config-line)#
+2025-05-04 22:39:03 - INFO - Sending command to Cisco Router (Device ID: 19): login local
+2025-05-04 22:39:03 - DEBUG - Response for command 'ip address 200.200.200.22 255.255.255.0' on Cisco Router (Device ID: 17): ip address 200.200.200.22 255.255.255.0
+ciscorouter06(config-if)#
+2025-05-04 22:39:03 - INFO - Sending command to Cisco Router (Device ID: 17): no shutdown
+2025-05-04 22:39:03 - DEBUG - Response for command 'login local' on Cisco Router (Device ID: 19): login local
+ciscorouter05(config-line)#
+2025-05-04 22:39:03 - INFO - Sending command to Cisco Router (Device ID: 19): ip domain name domain.com
+2025-05-04 22:39:03 - DEBUG - Response for command 'ip domain name domain.com' on Cisco Router (Device ID: 19): ip domain name domain.com
+ciscorouter05(config)#
+2025-05-04 22:39:03 - INFO - Sending command to Cisco Router (Device ID: 19): crypto key generate rsa
+2025-05-04 22:39:03 - DEBUG - Response for command 'no shutdown' on Cisco Router (Device ID: 17): no shutdown
+ciscorouter06(config-if)#
+2025-05-04 22:39:03 - INFO - Sending command to Cisco Router (Device ID: 17): description connection to cloud1
+2025-05-04 22:39:04 - DEBUG - Response for command 'description connection to cloud1' on Cisco Router (Device ID: 17): description connection to cloud1
+ciscorouter06(config-if)#
+2025-05-04 22:39:04 - INFO - Sending command to Cisco Router (Device ID: 17): int g0/1
+2025-05-04 22:39:04 - DEBUG - Response for command 'int g0/1' on Cisco Router (Device ID: 17): int g0/1
+ciscorouter06(config-if)#
+2025-05-04 22:39:04 - INFO - Sending command to Cisco Router (Device ID: 17): ip address 201.200.200.25 255.255.255.0
+2025-05-04 22:39:04 - DEBUG - Response for command 'ip address 201.200.200.25 255.255.255.0' on Cisco Router (Device ID: 17): ip address 201.200.200.25 255.255.255.0
+ciscorouter06(config-if)#
+2025-05-04 22:39:04 - INFO - Sending command to Cisco Router (Device ID: 17): no shutdown
+2025-05-04 22:39:04 - DEBUG - Response for command 'no shutdown' on Cisco Router (Device ID: 17): no shutdown
+ciscorouter06(config-if)#
+2025-05-04 22:39:04 - INFO - Sending command to Cisco Router (Device ID: 17): description connection to firewall ciscoftd02
+2025-05-04 22:39:04 - DEBUG - Response for command 'description connection to firewall ciscoftd02' on Cisco Router (Device ID: 17): description connection to firewall ciscoftd02
+ciscorouter06(config-if)#
+2025-05-04 22:39:04 - INFO - Sending command to Cisco Router (Device ID: 17): username admin privilege 15 secret adminpassword
+2025-05-04 22:39:04 - DEBUG - Response for command 'username admin privilege 15 secret adminpassword' on Cisco Router (Device ID: 17): username admin privilege 15 secret adminpassword
+ciscorouter06(config)#
+2025-05-04 22:39:04 - INFO - Sending command to Cisco Router (Device ID: 17): enable secret adminpassword
+2025-05-04 22:39:04 - DEBUG - Response for command 'enable secret adminpassword' on Cisco Router (Device ID: 17): enable secret adminpassword
+ciscorouter06(config)#
+2025-05-04 22:39:04 - INFO - Sending command to Cisco Router (Device ID: 17): line vty 0 4
+2025-05-04 22:39:04 - DEBUG - Response for command 'line vty 0 4' on Cisco Router (Device ID: 17): line vty 0 4
+ciscorouter06(config-line)#
+2025-05-04 22:39:04 - INFO - Sending command to Cisco Router (Device ID: 17): transport input ssh
+2025-05-04 22:39:04 - DEBUG - Response for command 'transport input ssh' on Cisco Router (Device ID: 17): transport input ssh
+ciscorouter06(config-line)#
+2025-05-04 22:39:04 - INFO - Sending command to Cisco Router (Device ID: 17): login local
+2025-05-04 22:39:05 - DEBUG - Response for command 'login local' on Cisco Router (Device ID: 17): login local
+ciscorouter06(config-line)#
+2025-05-04 22:39:05 - INFO - Sending command to Cisco Router (Device ID: 17): ip domain name domain.com
+2025-05-04 22:39:05 - DEBUG - Response for command 'ip domain name domain.com' on Cisco Router (Device ID: 17): ip domain name domain.com
+ciscorouter06(config)#
+2025-05-04 22:39:05 - INFO - Sending command to Cisco Router (Device ID: 17): crypto key generate rsa
+2025-05-04 22:39:12 - DEBUG - Response for command 'crypto key generate rsa' on Cisco Router (Device ID: 16): crypto key generate rsa
+The name for the keys will be: ciscorouter04.domain.com
+Choose the size of the key modulus in the range of 360 to 4096 for your
+  General Purpose Keys. Choosing a key modulus greater than 512 may take
+  a few minutes.
+
+How many bits in the modulus [512]: 
+*May  4 22:37:53.712: %LINK-3-UPDOWN: Interface GigabitEthernet0/0, changed state to up
+*May  4 22:37:54.126: %LINK-3-UPDOWN: Interface GigabitEthernet0/2, changed state to up
+*May  4 22:37:54.682: %LINK-3-UPDOWN: Interface GigabitEthernet0/1, changed state to up
+*May  4 22:37:54.712: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/0, changed state to up
+*May  4 22:37:55.126: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/2, changed state to up
+*May  4 22:37:55.682: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/1, changed state to up
+2025-05-04 22:39:12 - INFO - Sending command to Cisco Router (Device ID: 16): 2048
+2025-05-04 22:39:12 - DEBUG - Response for command 'crypto key generate rsa' on Cisco Router (Device ID: 20): crypto key generate rsa
+The name for the keys will be: ciscorouter03.domain.com
+Choose the size of the key modulus in the range of 360 to 4096 for your
+  General Purpose Keys. Choosing a key modulus greater than 512 may take
+  a few minutes.
+
+How many bits in the modulus [512]: 
+*May  4 22:37:54.483: %LINK-3-UPDOWN: Interface GigabitEthernet0/0, changed state to up
+*May  4 22:37:54.893: %LINK-3-UPDOWN: Interface GigabitEthernet0/2, changed state to up
+*May  4 22:37:55.435: %LINK-3-UPDOWN: Interface GigabitEthernet0/1, changed state to up
+*May  4 22:37:55.483: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/0, changed state to up
+*May  4 22:37:55.893: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/2, changed state to up
+*May  4 22:37:56.435: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/1, changed state to up
+2025-05-04 22:39:12 - INFO - Sending command to Cisco Router (Device ID: 20): 2048
+2025-05-04 22:39:13 - DEBUG - Response for command '2048' on Cisco Router (Device ID: 16): 2048
+% Generating 2048 bit RSA keys, keys will be non-exportable...
+[OK] (elapsed time was 1 seconds)
+
+ciscorouter04(config)#
+2025-05-04 22:39:13 - INFO - Sending command to Cisco Router (Device ID: 16): ip ssh version 2
+2025-05-04 22:39:13 - DEBUG - Response for command 'ip ssh version 2' on Cisco Router (Device ID: 16): ip ssh version 2
+ciscorouter04(config)#
+2025-05-04 22:39:13 - INFO - Sending command to Cisco Router (Device ID: 16): exit
+2025-05-04 22:39:13 - DEBUG - Response for command 'crypto key generate rsa' on Cisco Router (Device ID: 19): crypto key generate rsa
+The name for the keys will be: ciscorouter05.domain.com
+Choose the size of the key modulus in the range of 360 to 4096 for your
+  General Purpose Keys. Choosing a key modulus greater than 512 may take
+  a few minutes.
+
+How many bits in the modulus [512]: 
+*May  4 22:37:54.778: %LINK-3-UPDOWN: Interface GigabitEthernet0/0, changed state to up
+*May  4 22:37:55.189: %LINK-3-UPDOWN: Interface GigabitEthernet0/2, changed state to up
+*May  4 22:37:55.725: %LINK-3-UPDOWN: Interface GigabitEthernet0/1, changed state to up
+*May  4 22:37:55.778: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/0, changed state to up
+*May  4 22:37:56.189: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/2, changed state to up
+*May  4 22:37:56.725: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/1, changed state to up
+2025-05-04 22:39:13 - INFO - Sending command to Cisco Router (Device ID: 19): 2048
+2025-05-04 22:39:13 - DEBUG - Response for command 'exit' on Cisco Router (Device ID: 16): exit
+ciscorouter04#
+2025-05-04 22:39:13 - INFO - Sending command to Cisco Router (Device ID: 16): wr
+2025-05-04 22:39:14 - DEBUG - Response for command '2048' on Cisco Router (Device ID: 20): 2048
+% Generating 2048 bit RSA keys, keys will be non-exportable...
+[OK] (elapsed time was 1 seconds)
+
+ciscorouter03(config)#
+2025-05-04 22:39:14 - INFO - Sending command to Cisco Router (Device ID: 20): ip ssh version 2
+2025-05-04 22:39:14 - DEBUG - Response for command 'ip ssh version 2' on Cisco Router (Device ID: 20): ip ssh version 2
+ciscorouter03(config)#
+2025-05-04 22:39:14 - INFO - Sending command to Cisco Router (Device ID: 20): exit
+2025-05-04 22:39:14 - DEBUG - Response for command 'exit' on Cisco Router (Device ID: 20): exit
+ciscorouter03#
+2025-05-04 22:39:14 - INFO - Sending command to Cisco Router (Device ID: 20): wr
+2025-05-04 22:39:14 - DEBUG - Response for command '2048' on Cisco Router (Device ID: 19): 2048
+% Generating 2048 bit RSA keys, keys will be non-exportable...
+[OK] (elapsed time was 1 seconds)
+
+ciscorouter05(config)#
+2025-05-04 22:39:14 - INFO - Sending command to Cisco Router (Device ID: 19): ip ssh version 2
+2025-05-04 22:39:14 - DEBUG - Response for command 'ip ssh version 2' on Cisco Router (Device ID: 19): ip ssh version 2
+ciscorouter05(config)#
+2025-05-04 22:39:14 - INFO - Sending command to Cisco Router (Device ID: 19): exit
+2025-05-04 22:39:14 - DEBUG - Response for command 'exit' on Cisco Router (Device ID: 19): exit
+ciscorouter05#
+2025-05-04 22:39:14 - INFO - Sending command to Cisco Router (Device ID: 19): wr
+2025-05-04 22:39:15 - DEBUG - Response for command 'crypto key generate rsa' on Cisco Router (Device ID: 17): crypto key generate rsa
+The name for the keys will be: ciscorouter06.domain.com
+Choose the size of the key modulus in the range of 360 to 4096 for your
+  General Purpose Keys. Choosing a key modulus greater than 512 may take
+  a few minutes.
+
+How many bits in the modulus [512]: 
+*May  4 22:37:55.720: %LINK-3-UPDOWN: Interface GigabitEthernet0/0, changed state to up
+*May  4 22:37:56.129: %LINK-3-UPDOWN: Interface GigabitEthernet0/2, changed state to up
+*May  4 22:37:56.674: %LINK-3-UPDOWN: Interface GigabitEthernet0/1, changed state to up
+*May  4 22:37:56.720: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/0, changed state to up
+*May  4 22:37:57.129: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/2, changed state to up
+*May  4 22:37:57.674: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/1, changed state to up
+2025-05-04 22:39:15 - INFO - Sending command to Cisco Router (Device ID: 17): 2048
+2025-05-04 22:39:15 - DEBUG - Response for command 'wr' on Cisco Router (Device ID: 16): wr
+Building configuration...
+
+  [OK]
+*May  4 22:38:04.857: %SSH-5-ENABLED: SSH 1.99 has been enabled
+*May  4 22:38:05.072: %SYS-5-CONFIG_I: Configured from console by console
+*May  4 22:38:05.857: %GRUB-5-CONFIG_WRITING: GRUB configuration is being updated on disk. Please wait...
+ciscorouter04#
+2025-05-04 22:39:15 - INFO - Telnet connection closed for Cisco Router (Device ID: 16).
+2025-05-04 22:39:15 - DEBUG - Response for command '2048' on Cisco Router (Device ID: 17): 2048
+% Generating 2048 bit RSA keys, keys will be non-exportable...
+[OK] (elapsed time was 1 seconds)
+
+ciscorouter06(config)#
+2025-05-04 22:39:15 - INFO - Sending command to Cisco Router (Device ID: 17): ip ssh version 2
+2025-05-04 22:39:15 - DEBUG - Response for command 'wr' on Cisco Router (Device ID: 20): wr
+Building configuration...
+[OK]
+*May  4 22:38:05.766: %SSH-5-ENABLED: SSH 1.99 has been enabled
+*May  4 22:38:05.977: %SYS-5-CONFIG_I: Configured from console by console
+ciscorouter03#
+2025-05-04 22:39:15 - INFO - Telnet connection closed for Cisco Router (Device ID: 20).
+2025-05-04 22:39:15 - DEBUG - Response for command 'ip ssh version 2' on Cisco Router (Device ID: 17): ip ssh version 2
+ciscorouter06(config)#
+2025-05-04 22:39:15 - INFO - Sending command to Cisco Router (Device ID: 17): exit
+2025-05-04 22:39:16 - DEBUG - Response for command 'exit' on Cisco Router (Device ID: 17): exit
+ciscorouter06#
+2025-05-04 22:39:16 - INFO - Sending command to Cisco Router (Device ID: 17): wr
+2025-05-04 22:39:16 - DEBUG - Response for command 'wr' on Cisco Router (Device ID: 19): wr
+Building configuration...
+
+  [OK]
+ciscorouter05#
+2025-05-04 22:39:16 - INFO - Telnet connection closed for Cisco Router (Device ID: 19).
+2025-05-04 22:39:17 - DEBUG - Response for command 'wr' on Cisco Router (Device ID: 17): wr
+Building configuration...
+
+  [OK]
+ciscorouter06#
+2025-05-04 22:39:17 - INFO - Telnet connection closed for Cisco Router (Device ID: 17).
+2025-05-04 22:40:17 - INFO - Rebooting Arista Switch (Device ID: 26).
+2025-05-04 22:40:18 - INFO - Rebooting Arista Switch (Device ID: 22).
+2025-05-04 22:41:16 - INFO - Applying configuration to Juniper Firewall (Device ID: 24).
+2025-05-04 22:41:16 - INFO - Available sheets in configuration file: ['0', '1']
+2025-05-04 22:41:16 - INFO - Applying configuration for Juniper Firewall (Device ID: 24, Dev Num: 0).
+2025-05-04 22:41:16 - INFO - Sending command to Juniper Firewall (Device ID: 24): configure
+2025-05-04 22:41:17 - DEBUG - Response for command 'configure' on Juniper Firewall (Device ID: 24):  configure 
+Entering configuration mode
+
+[edit]
+root#
+2025-05-04 22:41:17 - INFO - Sending command to Juniper Firewall (Device ID: 24): delete system login class super-user-local login-script
+2025-05-04 22:41:18 - DEBUG - Response for command 'delete system login class super-user-local login-script' on Juniper Firewall (Device ID: 24):  delete system login class super-user-local login-script 
+warning: statement not found
+
+[edit]
+root#
+2025-05-04 22:41:18 - INFO - Sending command to Juniper Firewall (Device ID: 24): set system login user admin class super-user
+2025-05-04 22:41:18 - DEBUG - Response for command 'set system login user admin class super-user' on Juniper Firewall (Device ID: 24):  set system login user admin class super-user 
+
+[edit]
+root#
+2025-05-04 22:41:18 - INFO - Sending command to Juniper Firewall (Device ID: 24): set system login user admin authentication plain-text-password
+2025-05-04 22:41:18 - INFO - Applying configuration to Juniper Firewall (Device ID: 23).
+2025-05-04 22:41:18 - INFO - Available sheets in configuration file: ['0', '1']
+2025-05-04 22:41:18 - INFO - Applying configuration for Juniper Firewall (Device ID: 23, Dev Num: 1).
+2025-05-04 22:41:18 - INFO - Sending command to Juniper Firewall (Device ID: 23): configure
+2025-05-04 22:41:19 - DEBUG - Response for command 'configure' on Juniper Firewall (Device ID: 23):  configure 
+Entering configuration mode
+
+[edit]
+root#
+2025-05-04 22:41:19 - INFO - Sending command to Juniper Firewall (Device ID: 23): delete system login class super-user-local login-script
+2025-05-04 22:41:19 - DEBUG - Response for command 'delete system login class super-user-local login-script' on Juniper Firewall (Device ID: 23):  delete system login class super-user-local login-script 
+warning: statement not found
+
+[edit]
+root#
+2025-05-04 22:41:19 - INFO - Sending command to Juniper Firewall (Device ID: 23): set system login user admin class super-user
+2025-05-04 22:41:19 - DEBUG - Response for command 'set system login user admin class super-user' on Juniper Firewall (Device ID: 23):  set system login user admin class super-user 
+
+[edit]
+root#
+2025-05-04 22:41:19 - INFO - Sending command to Juniper Firewall (Device ID: 23): set system login user admin authentication plain-text-password
+2025-05-04 22:41:28 - DEBUG - Response for command 'set system login user admin authentication plain-text-password' on Juniper Firewall (Device ID: 24):  set system login user admin authentication plain-text-password 
+New password:
+2025-05-04 22:41:28 - INFO - Sending command to Juniper Firewall (Device ID: 24): Adminpass12!!
+2025-05-04 22:41:29 - DEBUG - Response for command 'set system login user admin authentication plain-text-password' on Juniper Firewall (Device ID: 23):  set system login user admin authentication plain-text-password 
+New password:
+2025-05-04 22:41:29 - INFO - Sending command to Juniper Firewall (Device ID: 23): Adminpass12!!
+2025-05-04 22:41:38 - DEBUG - Response for command 'Adminpass12!!' on Juniper Firewall (Device ID: 24): 
+Retype new password:
+2025-05-04 22:41:38 - INFO - Sending command to Juniper Firewall (Device ID: 24): Adminpass12!!
+2025-05-04 22:41:38 - DEBUG - Response for command 'Adminpass12!!' on Juniper Firewall (Device ID: 24): 
+
+[edit]
+root#
+2025-05-04 22:41:38 - INFO - Sending command to Juniper Firewall (Device ID: 24): set system root-authentication plain-text-password
+2025-05-04 22:41:39 - DEBUG - Response for command 'Adminpass12!!' on Juniper Firewall (Device ID: 23): 
+Retype new password:
+2025-05-04 22:41:39 - INFO - Sending command to Juniper Firewall (Device ID: 23): Adminpass12!!
+2025-05-04 22:41:39 - DEBUG - Response for command 'Adminpass12!!' on Juniper Firewall (Device ID: 23): 
+
+[edit]
+root#
+2025-05-04 22:41:39 - INFO - Sending command to Juniper Firewall (Device ID: 23): set system root-authentication plain-text-password
+2025-05-04 22:41:48 - DEBUG - Response for command 'set system root-authentication plain-text-password' on Juniper Firewall (Device ID: 24):  set system root-authentication plain-text-password 
+New password:nic_uio0: Allocate 3 MSI-X
+nic_uio0: Bar 1 @ febc1000, size 1000
+nic_uio0: Allocate 3 MSI-X
+nic_uio0: Bar 4 @ febf0000, size 4000
+nic_uio0: Bar 1 @ febc1000, size 1000
+nic_uio0: Bar 4 @ febf0000, size 4000
+nic_uio1: Allocate 3 MSI-X
+nic_uio1: Bar 1 @ febc2000, size 1000
+nic_uio1: Allocate 3 MSI-X
+nic_uio1: Bar 4 @ febf4000, size 4000
+nic_uio1: Bar 1 @ febc2000, size 1000
+nic_uio1: Bar 4 @ febf4000, size 4000
+nic_uio2: Allocate 3 MSI-X
+nic_uio2: Bar 1 @ febc3000, size 1000
+nic_uio2: Allocate 3 MSI-X
+nic_uio2: Bar 4 @ febf8000, size 4000
+nic_uio2: Bar 1 @ febc3000, size 1000
+nic_uio2: Bar 4 @ febf8000, size 4000
+
+2025-05-04 22:41:48 - INFO - Sending command to Juniper Firewall (Device ID: 24): Adminpass12!!
+2025-05-04 22:41:49 - DEBUG - Response for command 'set system root-authentication plain-text-password' on Juniper Firewall (Device ID: 23):  set system root-authentication plain-text-password 
+New password:nic_uio0: Allocate 3 MSI-X
+nic_uio0: Bar 1 @ febc1000, size 1000
+nic_uio0: Allocate 3 MSI-X
+nic_uio0: Bar 4 @ febf0000, size 4000
+nic_uio0: Bar 1 @ febc1000, size 1000
+nic_uio0: Bar 4 @ febf0000, size 4000
+nic_uio1: Allocate 3 MSI-X
+nic_uio1: Bar 1 @ febc2000, size 1000
+nic_uio1: Allocate 3 MSI-X
+nic_uio1: Bar 4 @ febf4000, size 4000
+nic_uio1: Bar 1 @ febc2000, size 1000
+nic_uio1: Bar 4 @ febf4000, size 4000
+nic_uio2: Allocate 3 MSI-X
+nic_uio2: Bar 1 @ febc3000, size 1000
+nic_uio2: Allocate 3 MSI-X
+nic_uio2: Bar 4 @ febf8000, size 4000
+nic_uio2: Bar 1 @ febc3000, size 1000
+nic_uio2: Bar 4 @ febf8000, size 4000
+
+2025-05-04 22:41:49 - INFO - Sending command to Juniper Firewall (Device ID: 23): Adminpass12!!
+2025-05-04 22:41:58 - DEBUG - Response for command 'Adminpass12!!' on Juniper Firewall (Device ID: 24): 
+Retype new password:
+2025-05-04 22:41:58 - INFO - Sending command to Juniper Firewall (Device ID: 24): Adminpass12!!
+2025-05-04 22:41:58 - DEBUG - Response for command 'Adminpass12!!' on Juniper Firewall (Device ID: 24): 
+
+[edit]
+root#
+2025-05-04 22:41:58 - INFO - Sending command to Juniper Firewall (Device ID: 24): set system host-name juniperfw02
+2025-05-04 22:41:58 - DEBUG - Response for command 'set system host-name juniperfw02' on Juniper Firewall (Device ID: 24):  set system host-name juniperfw02 
+
+[edit]
+root#
+2025-05-04 22:41:58 - INFO - Sending command to Juniper Firewall (Device ID: 24): edit interfaces
+2025-05-04 22:41:58 - DEBUG - Response for command 'edit interfaces' on Juniper Firewall (Device ID: 24):  edit interfaces 
+
+[edit interfaces]
+root#
+2025-05-04 22:41:58 - INFO - Sending command to Juniper Firewall (Device ID: 24): set fxp0 unit 0 family inet address 192.168.1.212/24
+2025-05-04 22:41:58 - DEBUG - Response for command 'set fxp0 unit 0 family inet address 192.168.1.212/24' on Juniper Firewall (Device ID: 24):  set fxp0 unit 0 family inet address 192.168.1.212/24 
+
+[edit interfaces]
+root#
+2025-05-04 22:41:58 - INFO - Sending command to Juniper Firewall (Device ID: 24): set ge-0/0/0 unit 0 family inet address 201.200.200.17/24
+2025-05-04 22:41:58 - DEBUG - Response for command 'set ge-0/0/0 unit 0 family inet address 201.200.200.17/24' on Juniper Firewall (Device ID: 24):  set ge-0/0/0 unit 0 family inet address 201.200.200.17/24 
+
+[edit interfaces]
+root#
+2025-05-04 22:41:58 - INFO - Sending command to Juniper Firewall (Device ID: 24): set ge-0/0/1 unit 0 family inet address 10.11.11.11/24
+2025-05-04 22:41:58 - DEBUG - Response for command 'set ge-0/0/1 unit 0 family inet address 10.11.11.11/24' on Juniper Firewall (Device ID: 24):  set ge-0/0/1 unit 0 family inet address 10.11.11.11/24 
+
+[edit interfaces]
+root#
+2025-05-04 22:41:58 - INFO - Sending command to Juniper Firewall (Device ID: 24): commit
+2025-05-04 22:41:59 - DEBUG - Response for command 'Adminpass12!!' on Juniper Firewall (Device ID: 23): 
+Retype new password:
+2025-05-04 22:41:59 - INFO - Sending command to Juniper Firewall (Device ID: 23): Adminpass12!!
+2025-05-04 22:42:00 - DEBUG - Response for command 'Adminpass12!!' on Juniper Firewall (Device ID: 23): 
+
+[edit]
+root#
+2025-05-04 22:42:00 - INFO - Sending command to Juniper Firewall (Device ID: 23): set system host-name juniperfw02
+2025-05-04 22:42:00 - DEBUG - Response for command 'set system host-name juniperfw02' on Juniper Firewall (Device ID: 23):  set system host-name juniperfw02 
+
+[edit]
+root#
+2025-05-04 22:42:00 - INFO - Sending command to Juniper Firewall (Device ID: 23): edit interfaces
+2025-05-04 22:42:00 - DEBUG - Response for command 'edit interfaces' on Juniper Firewall (Device ID: 23):  edit interfaces 
+
+[edit interfaces]
+root#
+2025-05-04 22:42:00 - INFO - Sending command to Juniper Firewall (Device ID: 23): set fxp0 unit 0 family inet address 192.168.1.212/24
+2025-05-04 22:42:00 - DEBUG - Response for command 'set fxp0 unit 0 family inet address 192.168.1.212/24' on Juniper Firewall (Device ID: 23):  set fxp0 unit 0 family inet address 192.168.1.212/24 
+
+[edit interfaces]
+root#
+2025-05-04 22:42:00 - INFO - Sending command to Juniper Firewall (Device ID: 23): set ge-0/0/0 unit 0 family inet address 201.200.200.17/24
+2025-05-04 22:42:00 - DEBUG - Response for command 'set ge-0/0/0 unit 0 family inet address 201.200.200.17/24' on Juniper Firewall (Device ID: 23):  set ge-0/0/0 unit 0 family inet address 201.200.200.17/24 
+
+[edit interfaces]
+root#
+2025-05-04 22:42:00 - INFO - Sending command to Juniper Firewall (Device ID: 23): set ge-0/0/1 unit 0 family inet address 10.11.11.211/24
+2025-05-04 22:42:00 - DEBUG - Response for command 'set ge-0/0/1 unit 0 family inet address 10.11.11.211/24' on Juniper Firewall (Device ID: 23):  set ge-0/0/1 unit 0 family inet address 10.11.11.211/24 
+
+[edit interfaces]
+root#
+2025-05-04 22:42:00 - INFO - Sending command to Juniper Firewall (Device ID: 23): commit
+2025-05-04 22:42:03 - DEBUG - Response for command 'commit' on Juniper Firewall (Device ID: 24):  commit 
+commit complete
+
+[edit interfaces]
+root@juniperfw02#
+2025-05-04 22:42:03 - INFO - Sending command to Juniper Firewall (Device ID: 24): exit
+2025-05-04 22:42:03 - DEBUG - Response for command 'exit' on Juniper Firewall (Device ID: 24):  exit 
+
+[edit]
+root@juniperfw02#
+2025-05-04 22:42:03 - INFO - Sending command to Juniper Firewall (Device ID: 24): set system domain-name mydomain.com
+2025-05-04 22:42:03 - DEBUG - Response for command 'set system domain-name mydomain.com' on Juniper Firewall (Device ID: 24):  set system domain-name mydomain.com 
+
+[edit]
+root@juniperfw02#
+2025-05-04 22:42:03 - INFO - Sending command to Juniper Firewall (Device ID: 24): set system services ssh
+2025-05-04 22:42:03 - DEBUG - Response for command 'set system services ssh' on Juniper Firewall (Device ID: 24):  set system services ssh 
+
+[edit]
+root@juniperfw02#
+2025-05-04 22:42:03 - INFO - Sending command to Juniper Firewall (Device ID: 24): commit
+2025-05-04 22:42:04 - DEBUG - Response for command 'commit' on Juniper Firewall (Device ID: 23):  commit 
+commit complete
+
+[edit interfaces]
+root@juniperfw02#
+2025-05-04 22:42:04 - INFO - Sending command to Juniper Firewall (Device ID: 23): exit
+2025-05-04 22:42:04 - DEBUG - Response for command 'exit' on Juniper Firewall (Device ID: 23):  exit 
+
+[edit]
+root@juniperfw02#
+2025-05-04 22:42:04 - INFO - Sending command to Juniper Firewall (Device ID: 23): set system domain-name mydomain.com
+2025-05-04 22:42:05 - DEBUG - Response for command 'set system domain-name mydomain.com' on Juniper Firewall (Device ID: 23):  set system domain-name mydomain.com 
+
+[edit]
+root@juniperfw02#
+2025-05-04 22:42:05 - INFO - Sending command to Juniper Firewall (Device ID: 23): set system services ssh
+2025-05-04 22:42:05 - DEBUG - Response for command 'set system services ssh' on Juniper Firewall (Device ID: 23):  set system services ssh 
+
+[edit]
+root@juniperfw02#
+2025-05-04 22:42:05 - INFO - Sending command to Juniper Firewall (Device ID: 23): commit
+2025-05-04 22:42:05 - DEBUG - Response for command 'commit' on Juniper Firewall (Device ID: 24):  commit 
+commit complete
+
+[edit]
+root@juniperfw02#
+2025-05-04 22:42:05 - INFO - Sending command to Juniper Firewall (Device ID: 24): edit system services ssh
+2025-05-04 22:42:05 - DEBUG - Response for command 'edit system services ssh' on Juniper Firewall (Device ID: 24):  edit system services ssh 
+
+[edit system services ssh]
+root@juniperfw02#
+2025-05-04 22:42:05 - INFO - Sending command to Juniper Firewall (Device ID: 24): set root-login allow
+2025-05-04 22:42:05 - DEBUG - Response for command 'set root-login allow' on Juniper Firewall (Device ID: 24):  set root-login allow 
+
+[edit system services ssh]
+root@juniperfw02#
+2025-05-04 22:42:05 - INFO - Sending command to Juniper Firewall (Device ID: 24): commit
+2025-05-04 22:42:06 - DEBUG - Response for command 'commit' on Juniper Firewall (Device ID: 23):  commit 
+commit complete
+
+[edit]
+root@juniperfw02#
+2025-05-04 22:42:06 - INFO - Sending command to Juniper Firewall (Device ID: 23): edit system services ssh
+2025-05-04 22:42:06 - DEBUG - Response for command 'edit system services ssh' on Juniper Firewall (Device ID: 23):  edit system services ssh 
+
+[edit system services ssh]
+root@juniperfw02#
+2025-05-04 22:42:06 - INFO - Sending command to Juniper Firewall (Device ID: 23): set root-login allow
+2025-05-04 22:42:06 - DEBUG - Response for command 'set root-login allow' on Juniper Firewall (Device ID: 23):  set root-login allow 
+
+[edit system services ssh]
+root@juniperfw02#
+2025-05-04 22:42:06 - INFO - Sending command to Juniper Firewall (Device ID: 23): commit
+2025-05-04 22:42:06 - DEBUG - Response for command 'commit' on Juniper Firewall (Device ID: 24):  commit 
+commit complete
+
+[edit system services ssh]
+root@juniperfw02#
+2025-05-04 22:42:06 - INFO - Sending command to Juniper Firewall (Device ID: 24): exit
+2025-05-04 22:42:06 - DEBUG - Response for command 'exit' on Juniper Firewall (Device ID: 24):  exit 
+
+[edit]
+root@juniperfw02#
+2025-05-04 22:42:06 - INFO - Sending command to Juniper Firewall (Device ID: 24): set security zones security-zone trust host-inbound-traffic system-services ping
+2025-05-04 22:42:06 - DEBUG - Response for command 'set security zones security-zone trust host-inbound-traffic system-services ping' on Juniper Firewall (Device ID: 24):  set security zones security-zone trust host-inbound-trafroot@juniperfw02#
+2025-05-04 22:42:06 - INFO - Sending command to Juniper Firewall (Device ID: 24): set security zones security-zone trust interfaces ge-0/0/0
+2025-05-04 22:42:06 - DEBUG - Response for command 'set security zones security-zone trust interfaces ge-0/0/0' on Juniper Firewall (Device ID: 24):  ...rity-zone trust host-inbound-traff                      ic system-services root@juniperfw02#
+2025-05-04 22:42:06 - INFO - Sending command to Juniper Firewall (Device ID: 24): set security zones security-zone trust interfaces ge-0/0/1
+2025-05-04 22:42:06 - DEBUG - Response for command 'set security zones security-zone trust interfaces ge-0/0/1' on Juniper Firewall (Device ID: 24):  ...-inbound-traffic system-services p                     ing 
+
+[edit]
+root@juniperfw02#
+2025-05-04 22:42:06 - INFO - Sending command to Juniper Firewall (Device ID: 24): commit
+2025-05-04 22:42:06 - DEBUG - Response for command 'commit' on Juniper Firewall (Device ID: 24):  set security zones security-zone trust interfaces ge-0/0root@juniperfw02#
+2025-05-04 22:42:06 - INFO - Sending command to Juniper Firewall (Device ID: 24): set routing-options static route 0.0.0.0/0 next-hop 201.200.200.13
+2025-05-04 22:42:06 - DEBUG - Response for command 'set routing-options static route 0.0.0.0/0 next-hop 201.200.200.13' on Juniper Firewall (Device ID: 24):  ...rity-zone trust interfaces ge-0/0/                      0 
+
+[edit]
+root@juniperfw02#
+2025-05-04 22:42:06 - INFO - Sending command to Juniper Firewall (Device ID: 24): commit
+2025-05-04 22:42:06 - DEBUG - Response for command 'commit' on Juniper Firewall (Device ID: 24):  set security zones security-zone trust interfaces ge-0/0root@juniperfw02#
+2025-05-04 22:42:06 - INFO - Sending command to Juniper Firewall (Device ID: 24): exit
+2025-05-04 22:42:06 - DEBUG - Response for command 'exit' on Juniper Firewall (Device ID: 24):  ...rity-zone trust interfaces ge-0/0/                      1 
+
+[edit]
+root@juniperfw02#
+2025-05-04 22:42:06 - INFO - Telnet connection closed for Juniper Firewall (Device ID: 24).
+2025-05-04 22:42:07 - DEBUG - Response for command 'commit' on Juniper Firewall (Device ID: 23):  commit 
+commit complete
+
+[edit system services ssh]
+root@juniperfw02#
+2025-05-04 22:42:07 - INFO - Sending command to Juniper Firewall (Device ID: 23): exit
+2025-05-04 22:42:07 - DEBUG - Response for command 'exit' on Juniper Firewall (Device ID: 23):  exit 
+
+[edit]
+root@juniperfw02#
+2025-05-04 22:42:07 - INFO - Sending command to Juniper Firewall (Device ID: 23): set security zones security-zone trust host-inbound-traffic system-services ping
+2025-05-04 22:42:07 - DEBUG - Response for command 'set security zones security-zone trust host-inbound-traffic system-services ping' on Juniper Firewall (Device ID: 23):  set security zones security-zone trust host-inbound-trafroot@juniperfw02#
+2025-05-04 22:42:07 - INFO - Sending command to Juniper Firewall (Device ID: 23): set security zones security-zone trust interfaces ge-0/0/0
+2025-05-04 22:42:07 - DEBUG - Response for command 'set security zones security-zone trust interfaces ge-0/0/0' on Juniper Firewall (Device ID: 23):  ...rity-zone trust host-inbound-traff                      ic system-services root@juniperfw02#
+2025-05-04 22:42:07 - INFO - Sending command to Juniper Firewall (Device ID: 23): set security zones security-zone trust interfaces ge-0/0/1
+2025-05-04 22:42:07 - DEBUG - Response for command 'set security zones security-zone trust interfaces ge-0/0/1' on Juniper Firewall (Device ID: 23):  ...-inbound-traffic system-services p                     ing 
+
+[edit]
+root@juniperfw02#
+2025-05-04 22:42:07 - INFO - Sending command to Juniper Firewall (Device ID: 23): commit
+2025-05-04 22:42:07 - DEBUG - Response for command 'commit' on Juniper Firewall (Device ID: 23):  set security zones security-zone trust interfaces ge-0/0root@juniperfw02#
+2025-05-04 22:42:07 - INFO - Sending command to Juniper Firewall (Device ID: 23): set routing-options static route 0.0.0.0/0 next-hop 201.200.200.13
+2025-05-04 22:42:07 - DEBUG - Response for command 'set routing-options static route 0.0.0.0/0 next-hop 201.200.200.13' on Juniper Firewall (Device ID: 23):  ...rity-zone trust interfaces ge-0/0/                      0 
+
+[edit]
+root@juniperfw02#
+2025-05-04 22:42:07 - INFO - Sending command to Juniper Firewall (Device ID: 23): commit
+2025-05-04 22:42:07 - DEBUG - Response for command 'commit' on Juniper Firewall (Device ID: 23):  set security zones security-zone trust interfaces ge-0/0root@juniperfw02#
+2025-05-04 22:42:07 - INFO - Sending command to Juniper Firewall (Device ID: 23): exit
+2025-05-04 22:42:07 - DEBUG - Response for command 'exit' on Juniper Firewall (Device ID: 23):  ...rity-zone trust interfaces ge-0/0/                      1 
+
+[edit]
+root@juniperfw02#
+2025-05-04 22:42:07 - INFO - Telnet connection closed for Juniper Firewall (Device ID: 23).
+2025-05-04 22:43:09 - INFO - Available sheets in configuration file: ['0', '1']
+2025-05-04 22:43:09 - INFO - Applying configuration for Arista Switch (Device ID: 26, Dev Num: 1).
+2025-05-04 22:43:09 - INFO - Sending command to Arista Switch (Device ID: 26): conf t
+2025-05-04 22:43:10 - DEBUG - Response for command 'conf t' on Arista Switch (Device ID: 26): conf t
+localhost(config)#
+2025-05-04 22:43:10 - INFO - Sending command to Arista Switch (Device ID: 26): enable password adminpassword
+2025-05-04 22:43:10 - DEBUG - Response for command 'enable password adminpassword' on Arista Switch (Device ID: 26): enable password adminpassword
+localhost(config)#
+2025-05-04 22:43:10 - INFO - Sending command to Arista Switch (Device ID: 26): hostname aristasw03
+2025-05-04 22:43:10 - DEBUG - Response for command 'hostname aristasw03' on Arista Switch (Device ID: 26): hostname aristasw03
+aristasw03(config)#
+2025-05-04 22:43:10 - INFO - Sending command to Arista Switch (Device ID: 26): management ssh
+2025-05-04 22:43:10 - DEBUG - Response for command 'management ssh' on Arista Switch (Device ID: 26): management ssh
+aristasw03(config-mgmt-ssh)#
+2025-05-04 22:43:10 - INFO - Sending command to Arista Switch (Device ID: 26): username admin privilege 15 secret adminpassword
+2025-05-04 22:43:10 - DEBUG - Response for command 'username admin privilege 15 secret adminpassword' on Arista Switch (Device ID: 26): username admin privilege 15 secret adminpassword
+aristasw03(config)#
+2025-05-04 22:43:10 - INFO - Sending command to Arista Switch (Device ID: 26): interface Management1
+2025-05-04 22:43:11 - DEBUG - Response for command 'interface Management1' on Arista Switch (Device ID: 26): interface Management1
+aristasw03(config-if-Ma1)#
+2025-05-04 22:43:11 - INFO - Sending command to Arista Switch (Device ID: 26): ip address 192.168.0.219/24
+2025-05-04 22:43:11 - DEBUG - Response for command 'ip address 192.168.0.219/24' on Arista Switch (Device ID: 26): ip address 192.168.0.219/24
+aristasw03(config-if-Ma1)#
+2025-05-04 22:43:11 - INFO - Sending command to Arista Switch (Device ID: 26): no ip address dhcp
+2025-05-04 22:43:11 - DEBUG - Response for command 'no ip address dhcp' on Arista Switch (Device ID: 26): no ip address dhcp
+aristasw03(config-if-Ma1)#
+2025-05-04 22:43:11 - INFO - Sending command to Arista Switch (Device ID: 26): exit
+2025-05-04 22:43:11 - DEBUG - Response for command 'exit' on Arista Switch (Device ID: 26): exit
+aristasw03(config)#
+2025-05-04 22:43:11 - INFO - Sending command to Arista Switch (Device ID: 26): vlan 11
+2025-05-04 22:43:11 - DEBUG - Response for command 'vlan 11' on Arista Switch (Device ID: 26): vlan 11
+aristasw03(config-vlan-11)#
+2025-05-04 22:43:11 - INFO - Sending command to Arista Switch (Device ID: 26): state active
+2025-05-04 22:43:11 - DEBUG - Response for command 'state active' on Arista Switch (Device ID: 26): state active
+aristasw03(config-vlan-11)#
+2025-05-04 22:43:11 - INFO - Sending command to Arista Switch (Device ID: 26): name to_juniperfw01
+2025-05-04 22:43:11 - DEBUG - Response for command 'name to_juniperfw01' on Arista Switch (Device ID: 26): name to_juniperfw01
+aristasw03(config-vlan-11)#
+2025-05-04 22:43:11 - INFO - Sending command to Arista Switch (Device ID: 26): exit
+2025-05-04 22:43:11 - DEBUG - Response for command 'exit' on Arista Switch (Device ID: 26): exit
+aristasw03(config)#
+2025-05-04 22:43:11 - INFO - Sending command to Arista Switch (Device ID: 26): int vlan 11
+2025-05-04 22:43:12 - DEBUG - Response for command 'int vlan 11' on Arista Switch (Device ID: 26): int vlan 11
+aristasw03(config-if-Vl11)#
+2025-05-04 22:43:12 - INFO - Sending command to Arista Switch (Device ID: 26): ip address 10.11.11.15/24
+2025-05-04 22:43:12 - DEBUG - Response for command 'ip address 10.11.11.15/24' on Arista Switch (Device ID: 26): ip address 10.11.11.15/24
+aristasw03(config-if-Vl11)#
+2025-05-04 22:43:12 - INFO - Sending command to Arista Switch (Device ID: 26): description DMZ_Vlan
+2025-05-04 22:43:12 - DEBUG - Response for command 'description DMZ_Vlan' on Arista Switch (Device ID: 26): description DMZ_Vlan
+aristasw03(config-if-Vl11)#
+2025-05-04 22:43:12 - INFO - Sending command to Arista Switch (Device ID: 26): no shut
+2025-05-04 22:43:12 - DEBUG - Response for command 'no shut' on Arista Switch (Device ID: 26): no shut
+aristasw03(config-if-Vl11)#
+2025-05-04 22:43:12 - INFO - Sending command to Arista Switch (Device ID: 26): exit
+2025-05-04 22:43:12 - DEBUG - Response for command 'exit' on Arista Switch (Device ID: 26): exit
+aristasw03(config)#
+2025-05-04 22:43:12 - INFO - Sending command to Arista Switch (Device ID: 26): ip route 0.0.0.0/0 10.11.11.11
+2025-05-04 22:43:12 - DEBUG - Response for command 'ip route 0.0.0.0/0 10.11.11.11' on Arista Switch (Device ID: 26): ip route 0.0.0.0/0 10.11.11.11
+aristasw03(config)#
+2025-05-04 22:43:12 - INFO - Sending command to Arista Switch (Device ID: 26): int e1
+2025-05-04 22:43:12 - DEBUG - Response for command 'int e1' on Arista Switch (Device ID: 26): int e1
+aristasw03(config-if-Et1)#
+2025-05-04 22:43:12 - INFO - Sending command to Arista Switch (Device ID: 26): switchport mode access
+2025-05-04 22:43:12 - DEBUG - Response for command 'switchport mode access' on Arista Switch (Device ID: 26): switchport mode access
+aristasw03(config-if-Et1)#
+2025-05-04 22:43:12 - INFO - Sending command to Arista Switch (Device ID: 26): switchport access vlan 11
+2025-05-04 22:43:12 - DEBUG - Response for command 'switchport access vlan 11' on Arista Switch (Device ID: 26): switchport access vlan 11
+aristasw03(config-if-Et1)#
+2025-05-04 22:43:12 - INFO - Sending command to Arista Switch (Device ID: 26): description to_juniperfw01
+2025-05-04 22:43:12 - DEBUG - Response for command 'description to_juniperfw01' on Arista Switch (Device ID: 26): description to_juniperfw01
+aristasw03(config-if-Et1)#
+2025-05-04 22:43:12 - INFO - Sending command to Arista Switch (Device ID: 26): no shut
+2025-05-04 22:43:12 - DEBUG - Response for command 'no shut' on Arista Switch (Device ID: 26): no shut
+aristasw03(config-if-Et1)#
+2025-05-04 22:43:12 - INFO - Sending command to Arista Switch (Device ID: 26): int e2
+2025-05-04 22:43:13 - DEBUG - Response for command 'int e2' on Arista Switch (Device ID: 26): int e2
+aristasw03(config-if-Et2)#
+2025-05-04 22:43:13 - INFO - Sending command to Arista Switch (Device ID: 26): switchport mode access
+2025-05-04 22:43:13 - DEBUG - Response for command 'switchport mode access' on Arista Switch (Device ID: 26): switchport mode access
+aristasw03(config-if-Et2)#
+2025-05-04 22:43:13 - INFO - Sending command to Arista Switch (Device ID: 26): switchport access vlan 11
+2025-05-04 22:43:13 - DEBUG - Response for command 'switchport access vlan 11' on Arista Switch (Device ID: 26): switchport access vlan 11
+aristasw03(config-if-Et2)#
+2025-05-04 22:43:13 - INFO - Sending command to Arista Switch (Device ID: 26): description to_host
+2025-05-04 22:43:13 - DEBUG - Response for command 'description to_host' on Arista Switch (Device ID: 26): description to_host
+aristasw03(config-if-Et2)#
+2025-05-04 22:43:13 - INFO - Sending command to Arista Switch (Device ID: 26): no shut
+2025-05-04 22:43:13 - DEBUG - Response for command 'no shut' on Arista Switch (Device ID: 26): no shut
+aristasw03(config-if-Et2)#
+2025-05-04 22:43:13 - INFO - Sending command to Arista Switch (Device ID: 26): exit
+2025-05-04 22:43:13 - DEBUG - Response for command 'exit' on Arista Switch (Device ID: 26): exit
+aristasw03(config)#
+2025-05-04 22:43:13 - INFO - Sending command to Arista Switch (Device ID: 26): exit
+2025-05-04 22:43:13 - DEBUG - Response for command 'exit' on Arista Switch (Device ID: 26): exit
+aristasw03#
+2025-05-04 22:43:13 - INFO - Sending command to Arista Switch (Device ID: 26): wr
+2025-05-04 22:43:13 - DEBUG - Response for command 'wr' on Arista Switch (Device ID: 26): wr
+Copy completed successfully.
+aristasw03#
+2025-05-04 22:43:13 - INFO - Telnet connection closed for Arista Switch (Device ID: 26).
+2025-05-04 22:43:13 - INFO - Available sheets in configuration file: ['0', '1']
+2025-05-04 22:43:13 - INFO - Applying configuration for Arista Switch (Device ID: 22, Dev Num: 0).
+2025-05-04 22:43:13 - INFO - Sending command to Arista Switch (Device ID: 22): conf t
+2025-05-04 22:43:15 - DEBUG - Response for command 'conf t' on Arista Switch (Device ID: 22): conf t
+localhost(config)#
+2025-05-04 22:43:15 - INFO - Sending command to Arista Switch (Device ID: 22): enable password adminpassword
+2025-05-04 22:43:15 - DEBUG - Response for command 'enable password adminpassword' on Arista Switch (Device ID: 22): enable password adminpassword
+localhost(config)#
+2025-05-04 22:43:15 - INFO - Sending command to Arista Switch (Device ID: 22): hostname aristasw02
+2025-05-04 22:43:15 - DEBUG - Response for command 'hostname aristasw02' on Arista Switch (Device ID: 22): hostname aristasw02
+aristasw02(config)#
+2025-05-04 22:43:15 - INFO - Sending command to Arista Switch (Device ID: 22): management ssh
+2025-05-04 22:43:15 - DEBUG - Response for command 'management ssh' on Arista Switch (Device ID: 22): management ssh
+aristasw02(config-mgmt-ssh)#
+2025-05-04 22:43:15 - INFO - Sending command to Arista Switch (Device ID: 22): username admin privilege 15 secret adminpassword
+2025-05-04 22:43:15 - DEBUG - Response for command 'username admin privilege 15 secret adminpassword' on Arista Switch (Device ID: 22): username admin privilege 15 secret adminpassword
+aristasw02(config)#
+2025-05-04 22:43:15 - INFO - Sending command to Arista Switch (Device ID: 22): interface Management1
+2025-05-04 22:43:15 - DEBUG - Response for command 'interface Management1' on Arista Switch (Device ID: 22): interface Management1
+aristasw02(config-if-Ma1)#
+2025-05-04 22:43:15 - INFO - Sending command to Arista Switch (Device ID: 22): ip address 192.168.0.218/24
+2025-05-04 22:43:15 - DEBUG - Response for command 'ip address 192.168.0.218/24' on Arista Switch (Device ID: 22): ip address 192.168.0.218/24
+aristasw02(config-if-Ma1)#
+2025-05-04 22:43:15 - INFO - Sending command to Arista Switch (Device ID: 22): no ip address dhcp
+2025-05-04 22:43:16 - DEBUG - Response for command 'no ip address dhcp' on Arista Switch (Device ID: 22): no ip address dhcp
+aristasw02(config-if-Ma1)#
+2025-05-04 22:43:16 - INFO - Sending command to Arista Switch (Device ID: 22): exit
+2025-05-04 22:43:16 - DEBUG - Response for command 'exit' on Arista Switch (Device ID: 22): exit
+aristasw02(config)#
+2025-05-04 22:43:16 - INFO - Sending command to Arista Switch (Device ID: 22): vlan 11
+2025-05-04 22:43:16 - DEBUG - Response for command 'vlan 11' on Arista Switch (Device ID: 22): vlan 11
+aristasw02(config-vlan-11)#
+2025-05-04 22:43:16 - INFO - Sending command to Arista Switch (Device ID: 22): state active
+2025-05-04 22:43:16 - DEBUG - Response for command 'state active' on Arista Switch (Device ID: 22): state active
+aristasw02(config-vlan-11)#
+2025-05-04 22:43:16 - INFO - Sending command to Arista Switch (Device ID: 22): name to_juniperfw01
+2025-05-04 22:43:16 - DEBUG - Response for command 'name to_juniperfw01' on Arista Switch (Device ID: 22): name to_juniperfw01
+aristasw02(config-vlan-11)#
+2025-05-04 22:43:16 - INFO - Sending command to Arista Switch (Device ID: 22): exit
+2025-05-04 22:43:16 - DEBUG - Response for command 'exit' on Arista Switch (Device ID: 22): exit
+aristasw02(config)#
+2025-05-04 22:43:16 - INFO - Sending command to Arista Switch (Device ID: 22): int vlan 11
+2025-05-04 22:43:16 - DEBUG - Response for command 'int vlan 11' on Arista Switch (Device ID: 22): int vlan 11
+aristasw02(config-if-Vl11)#
+2025-05-04 22:43:16 - INFO - Sending command to Arista Switch (Device ID: 22): ip address 10.11.11.13/24
+2025-05-04 22:43:16 - DEBUG - Response for command 'ip address 10.11.11.13/24' on Arista Switch (Device ID: 22): ip address 10.11.11.13/24
+aristasw02(config-if-Vl11)#
+2025-05-04 22:43:16 - INFO - Sending command to Arista Switch (Device ID: 22): description DMZ_Vlan
+2025-05-04 22:43:16 - DEBUG - Response for command 'description DMZ_Vlan' on Arista Switch (Device ID: 22): description DMZ_Vlan
+aristasw02(config-if-Vl11)#
+2025-05-04 22:43:16 - INFO - Sending command to Arista Switch (Device ID: 22): no shut
+2025-05-04 22:43:16 - DEBUG - Response for command 'no shut' on Arista Switch (Device ID: 22): no shut
+aristasw02(config-if-Vl11)#
+2025-05-04 22:43:16 - INFO - Sending command to Arista Switch (Device ID: 22): exit
+2025-05-04 22:43:16 - DEBUG - Response for command 'exit' on Arista Switch (Device ID: 22): exit
+aristasw02(config)#
+2025-05-04 22:43:16 - INFO - Sending command to Arista Switch (Device ID: 22): ip route 0.0.0.0/0 10.11.11.11
+2025-05-04 22:43:16 - DEBUG - Response for command 'ip route 0.0.0.0/0 10.11.11.11' on Arista Switch (Device ID: 22): ip route 0.0.0.0/0 10.11.11.11
+aristasw02(config)#
+2025-05-04 22:43:16 - INFO - Sending command to Arista Switch (Device ID: 22): int e1
+2025-05-04 22:43:17 - DEBUG - Response for command 'int e1' on Arista Switch (Device ID: 22): int e1
+aristasw02(config-if-Et1)#
+2025-05-04 22:43:17 - INFO - Sending command to Arista Switch (Device ID: 22): switchport mode access
+2025-05-04 22:43:17 - DEBUG - Response for command 'switchport mode access' on Arista Switch (Device ID: 22): switchport mode access
+aristasw02(config-if-Et1)#
+2025-05-04 22:43:17 - INFO - Sending command to Arista Switch (Device ID: 22): switchport access vlan 11
+2025-05-04 22:43:17 - DEBUG - Response for command 'switchport access vlan 11' on Arista Switch (Device ID: 22): switchport access vlan 11
+aristasw02(config-if-Et1)#
+2025-05-04 22:43:17 - INFO - Sending command to Arista Switch (Device ID: 22): description to_juniperfw01
+2025-05-04 22:43:17 - DEBUG - Response for command 'description to_juniperfw01' on Arista Switch (Device ID: 22): description to_juniperfw01
+aristasw02(config-if-Et1)#
+2025-05-04 22:43:17 - INFO - Sending command to Arista Switch (Device ID: 22): no shut
+2025-05-04 22:43:17 - DEBUG - Response for command 'no shut' on Arista Switch (Device ID: 22): no shut
+aristasw02(config-if-Et1)#
+2025-05-04 22:43:17 - INFO - Sending command to Arista Switch (Device ID: 22): int e2
+2025-05-04 22:43:17 - DEBUG - Response for command 'int e2' on Arista Switch (Device ID: 22): int e2
+aristasw02(config-if-Et2)#
+2025-05-04 22:43:17 - INFO - Sending command to Arista Switch (Device ID: 22): switchport mode access
+2025-05-04 22:43:17 - DEBUG - Response for command 'switchport mode access' on Arista Switch (Device ID: 22): switchport mode access
+aristasw02(config-if-Et2)#
+2025-05-04 22:43:17 - INFO - Sending command to Arista Switch (Device ID: 22): switchport access vlan 11
+2025-05-04 22:43:17 - DEBUG - Response for command 'switchport access vlan 11' on Arista Switch (Device ID: 22): switchport access vlan 11
+aristasw02(config-if-Et2)#
+2025-05-04 22:43:17 - INFO - Sending command to Arista Switch (Device ID: 22): description to_host
+2025-05-04 22:43:17 - DEBUG - Response for command 'description to_host' on Arista Switch (Device ID: 22): description to_host
+aristasw02(config-if-Et2)#
+2025-05-04 22:43:17 - INFO - Sending command to Arista Switch (Device ID: 22): no shut
+2025-05-04 22:43:17 - DEBUG - Response for command 'no shut' on Arista Switch (Device ID: 22): no shut
+aristasw02(config-if-Et2)#
+2025-05-04 22:43:17 - INFO - Sending command to Arista Switch (Device ID: 22): exit
+2025-05-04 22:43:17 - DEBUG - Response for command 'exit' on Arista Switch (Device ID: 22): exit
+aristasw02(config)#
+2025-05-04 22:43:17 - INFO - Sending command to Arista Switch (Device ID: 22): exit
+2025-05-04 22:43:17 - DEBUG - Response for command 'exit' on Arista Switch (Device ID: 22): exit
+aristasw02#
+2025-05-04 22:43:17 - INFO - Sending command to Arista Switch (Device ID: 22): wr
+2025-05-04 22:43:18 - DEBUG - Response for command 'wr' on Arista Switch (Device ID: 22): wr
+Copy completed successfully.
+aristasw02#
+2025-05-04 22:43:18 - INFO - Telnet connection closed for Arista Switch (Device ID: 22).

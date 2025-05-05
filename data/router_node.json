@@ -1,0 +1,18 @@
+{
+    "template": "vios",
+    "type": "qemu",
+    "count": "1",
+    "image": "vios-adventerprisek9-m.SPA.159-3.M6",
+    "name": "vIOS",
+    "icon": "Router-3D-Gen2-S.svg",
+    "uuid": "",
+    "cpu": "1",
+    "ram": "1024",
+    "ethernet": "4",
+    "config": "0",
+    "delay": "0",
+    "console": "telnet",
+    "left": "300",
+    "top": "125",
+    "postfix": 0
+}

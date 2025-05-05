@@ -1,0 +1,17 @@
+{
+    "console": "telnet",
+    "left": "50",
+    "icon": "Switch L3.png",
+    "image": "viosl2-adventerprisek9-m.SSA.high_iron_20200929",
+    "name": "Switch",
+    "ram": 1024,
+    "status": 0,
+    "template": "viosl2",
+    "type": "qemu",
+    "top": "125",
+    "delay": "0",
+    "config": 0,
+    "cpu": 1,
+    "ethernet": 8,
+    "uuid": ""
+}

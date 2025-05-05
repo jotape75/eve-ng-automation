@@ -1,0 +1,17 @@
+{
+    "console": "telnet",
+    "delay": 0,
+    "left": "400",
+    "icon": "Firewall2.png",
+    "image": "vsrxng-21.3R1.9",
+    "name": "vSRX-NG",
+    "ram": 4096,
+    "status": 0,
+    "template": "vsrxng",
+    "type": "qemu",
+    "top": "125",
+    "config": 0,
+    "cpu": 2,
+    "ethernet": 4,
+    "uuid": ""
+}
