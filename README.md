@@ -61,7 +61,6 @@ eve-ng_automation
    ```bash
    pip install -r requirements.txt
    ```
-
 ---
 
 ## **Configuration**
