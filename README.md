@@ -18,26 +18,33 @@ This project automates the deployment and configuration of multiple vendor devic
 
 ```
 eve-ng_automation
-├── src
-│   ├── main.py          # Entry point of the application
-│   ├── utils.py         # Utility functions (e.g., file handling, ASCII art)
-│   ├── exceptions.py    # Custom exceptions for error handling
-│   └── processing.py    # Core logic for interacting with the EVE-NG API
 ├── data
-│   ├── automation_urls.json  # Configuration file for API URLs and payloads
-│   ├── router_node.json      # Payload for Cisco routers
-│   ├── cicosw_node.json      # Payload for Cisco switches
-│   ├── aristasw_node.json    # Payload for Arista switches
-│   ├── juniperfw_node.json   # Payload for Juniper firewalls
-│   ├── Switch.xlsx           # Excel file for Cisco Switch configurations
-│   ├── vEOS.xlsx             # Excel file for Arista Switch configurations
-│   ├── vIOS.xlsx             # Excel file for Cisco Router configurations
-│   └── vSRX-NG.xlsx          # Excel file for Juniper Firewall configurations
-├── requirements.txt      # Project dependencies
-├── .gitignore            # Files to ignore in version control
-└── README.md             # Project documentation
-```
-
+│   ├── aristasw_node.json
+│   ├── automation_urls.json
+│   ├── cicosw_node.json
+│   ├── eve_creds.xlsx
+│   ├── juniperfw_node.json
+│   ├── router_node.json
+│   ├── Switch.xlsx
+│   ├── vEOS.xlsx
+│   ├── vIOS.xlsx
+│   └── vSRX-NG.xlsx
+├── log
+│   ├── 2025-05-04 22:36:50_main_log_file.log
+│   └── 2025-05-05 08:11:05_main_log_file.log
+├── README.md
+├── requirements.txt
+├── src
+│   ├── exceptions.py
+│   ├── main.py
+│   ├── processing.py
+│   ├── __pycache__
+│   │   ├── exceptions.cpython-310.pyc
+│   │   ├── processing.cpython-310.pyc
+│   │   └── utils.cpython-310.pyc
+│   └── utils.py
+└── troubleshooting
+    └── eve_api_connection_test.py
 ---
 
 ## **Installation**
